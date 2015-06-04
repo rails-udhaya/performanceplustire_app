@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-%w(KU39 KU27 KU22 PA31 KH16 TA31 KR21 KR26 KL12 KL21 KL51 KL78 KL71 V710 KL33 KU36).each do |patt|
+%w(KU39 KU27 KU22 PA31 KH16 TA31 KR21 KR26 KL12 KL21 KL51 KL78 KL71 V710 KL33 KU36 TA11 KH25 AT51).each do |patt|
         if !KumhotireepicPattern.exists?(:pattern => patt)
                 kumhotireepic_pattern = KumhotireepicPattern.create(:pattern => patt, :is_enabled => true)
                 
