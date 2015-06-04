@@ -59,6 +59,7 @@ class KumhoDatatBuilderAgent
 		def start_processing
 										begin
 																		if $db_connection_established
+																				Headless.ly do		
 																		KumhotireepicData.delete_all
 																		patt = KumhotireepicPattern.where(:is_enabled => true)
 																		browser = Watir::Browser.new:firefox, :profile => @profile
@@ -119,6 +120,7 @@ class KumhoDatatBuilderAgent
 																				write_data_to_file																				
 																		
 																		end    
+																end    
 										rescue Exception => e
 														$logger.error "Error Occured - #{e.message}"
 														$logger.error e.backtrace
