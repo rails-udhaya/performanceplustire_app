@@ -14,7 +14,7 @@ pid_status_english = system("ps -aux | grep kumho_data_agent.rb | grep -vq grep"
 				else
 						$logger.info ("Process started....")
 						system("nohup bundle exec /usr/bin/ruby ../kumho_data_agent.rb &")
-						#~ system("nohup bundle exec /usr/bin/ruby /var/www/apps/performanceplustire/current/agents/kumho/kumho_monitors/kumho_data_agent.rb -e production &")
+						#~ system("nohup bundle exec /usr/bin/ruby /var/www/apps/performanceplustire/current/agents/kumho_data_agent.rb -e production &")
 				end
 #~ sleep 300
 #~ end
