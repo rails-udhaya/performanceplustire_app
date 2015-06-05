@@ -62,18 +62,18 @@ class KumhoDatatBuilderAgent
 																				Headless.ly do		
 																		KumhotireepicData.delete_all
 																		patt = KumhotireepicPattern.where(:is_enabled => true)
-																		@browser = Watir::Browser.new:firefox, :profile => @profile
-																		@browser.goto "http://www.kumhotireepic.com/"
-																		@browser.text_field(:name, 'txtId').set("1090614")
-																		@browser.text_field(:name, 'txtPass').set("3910pplus")
-																		@browser.a(:index=>0).click
-																		@browser.goto "http://www.kumhotireepic.com/epic_work_source/Product/Stocklnquiry010.asp"
-																		@browser.checkbox(:name => 'realTimeStock').clear
+																		browser = Watir::Browser.new:firefox, :profile => @profile
+																		browser.goto "http://www.kumhotireepic.com/"
+																		browser.text_field(:name, 'txtId').set("1090614")
+																		browser.text_field(:name, 'txtPass').set("3910pplus")
+																		browser.a(:index=>0).click
+																		browser.goto "http://www.kumhotireepic.com/epic_work_source/Product/Stocklnquiry010.asp"
+																		browser.checkbox(:name => 'realTimeStock').clear
 																		patt.each do |p|
 																				$logger.info "Processing...... #{p.pattern}"
-																						@browser.select_list(:id => 'pattern').option(:text, p.pattern).select
-																						@browser.checkbox(:name => 'realTimeStock').clear
-																						@browser.img(:alt => 'Browse').click
+																						browser.select_list(:id => 'pattern').option(:text, p.pattern).select
+																						browser.checkbox(:name => 'realTimeStock').clear
+																						browser.img(:alt => 'Browse').click
 																						sleep 2
 																						doc = Nokogiri::HTML.parse(browser.html)
 																						temp_1 = doc.css("table.subpagenaviTable")
@@ -83,7 +83,7 @@ class KumhoDatatBuilderAgent
 																								while @i <= cnt  do 
 																										puts @i
 																										if @i != 1
-																														@browser.a(:text => @i.to_s).fire_event("click")																												
+																														browser.a(:text => @i.to_s).fire_event("click")																												
 																										end
 																										doc_1 = Nokogiri::HTML.parse(browser.html)
 																										temp_2=doc_1.css("table#dataTable tr")
@@ -127,7 +127,6 @@ class KumhoDatatBuilderAgent
 										ensure
 														$logger.close
 														#~ #Our program will automatically will close the DB connection. But even making sure for the safety purpose.
-														@browser.close
 														ActiveRecord::Base.clear_active_connections!
 										end
 				end
