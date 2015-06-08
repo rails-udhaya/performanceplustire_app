@@ -139,7 +139,7 @@ class KumhoDatatBuilderAgent
         Dir.mkdir("#{File.dirname(__FILE__)}/kumho_data") unless File.directory?("#{File.dirname(__FILE__)}/kumho_data")
 								file_name = "kumho_#{Date.today.to_s}.txt"
         File.open("#{File.dirname(__FILE__)}/kumho_data/#{file_name}", 'w'){ |f|
-								f.write "Inverntory Number"+"\t"+"Quantity"+"\t"+"Quantity Updated Type"+"\t"+"Seller Cost"+"\t"+"DC Quantity"
+								f.write "Inventory Number"+"\t"+"Quantity"+"\t"+"Quantity Update Type"+"\t"+"Seller Cost"+"\t"+"DC Quantity"
 								f.write "\n"
 								@kumhotireepicdata.each do |kumhotireepicdata|
 										f.write kumhotireepicdata.inventory_number+"\t"+kumhotireepicdata.quantity+"\t"+kumhotireepicdata.quantity_updated_type+"\t"+kumhotireepicdata.seller_cost+"\t"+kumhotireepicdata.dc_quantity
