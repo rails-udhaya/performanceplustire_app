@@ -22,7 +22,7 @@ def kumho_daily_data_email(fi_name,attach)
 		$logger.info "Sending email.."
 		 attachments[fi_name] = File.read(attach)
     mail(
-            :to      => "udhayakumar.dhanabalan@gmail.com",
+            :to      => "kbrown@performanceplustire.com",
 												:bcc => ["udhayakumar.dhanabalan@gmail.com"],
             :from    => "scrape.coder@gmail.com",
             :subject => "KUMHO DAILY DATA"
