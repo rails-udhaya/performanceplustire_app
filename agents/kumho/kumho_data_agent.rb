@@ -85,8 +85,10 @@ class KumhoDatatBuilderAgent
 																										puts @i
 																										if @i != 1
 																														browser.a(:text => @i.to_s).fire_event("click")																												
-																										end
+																												end
+																												sleep 2
 																										doc_1 = Nokogiri::HTML.parse(browser.html)
+																										sleep 1
 																										temp_2=doc_1.css("table#dataTable tr")
 																										temp_2.each do |t_2|
 																												inventory_number =""
