@@ -74,8 +74,10 @@ class AtdonlineDatatBuilderAgent
 																					
 																				lis = AtdonlineList.where(:is_enabled=>true) 
 																				lis.each do |l|
+				begin
 																						$logger.info "processing...... #{l['id']}"
 																						browser.goto "http://www.atdonline.com/search/refine?preferredBrands=N&Ntk=Search.atdonline_global&availabilityOptionSelected=national&N=10929&NoResultsFromFiltersMessaging=N&Ntt=**#{l['brand_name']}**&categoryTitle=Passenger+%26+Light+Truck"
+																				sleep 5
 																				doc = Nokogiri::HTML.parse(browser.html)
 																				temp_1=doc.css("table tbody tr")
 																				temp_1.each do |t_1|
@@ -121,14 +123,18 @@ class AtdonlineDatatBuilderAgent
 						
 						begin
 						$logger.info size
-						sleep 1
+						#~ sleep 1
 						AtdonlineData.create(:size=>size,:description=>description,:supplier=>supplier,:load_speed=>load_speed,:mileage_warranty=>mileage_warranty,:sidewall=>sidewall,:local_dc=>local_dc,:local=>local,:cost=>cost)
 						rescue
 						puts "Error in Inserting record"
 						$logger.info "Error in Inserting record"
-						end
+				end
+				
 		end
-																				end
+end
+										rescue
+																puts "Time out error"
+										end
 																				end
 																				
 																				
