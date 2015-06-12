@@ -1,0 +1,254 @@
+Size	Description	Supplier	Load Speed	Mileage Warranty	Sidewall	Local DC	Local	Cost
+P185/70R14	BFGoodrich Premier Touring	93610	87T	70K	Black Wall	0	0	$46.06
+P185/70R14	BFGoodrich Advantage T/A	28653	87T	75K	Black Wall	8	8	$68.89
+205/50ZR15XL	BFGoodrich g-Force Super Sport A/S	07855	89W	35K	Black Wall	0	0	$70.99
+P195/70R14	BFGoodrich Advantage T/A	12729	90T	75K	Black Wall	0	0	$71.33
+185/65R15	BFGoodrich Advantage T/A	08163	88H	60K	Black Wall	28	7	$71.39
+195/60R15	BFGoodrich Advantage T/A	82309	88T	75K	Black Wall	8	0	$71.86
+185/65R14	BFGoodrich Winter Slalom KSI	68486	86S	0	Black Wall	0	0	$73.98
+195/65R15	BFGoodrich Advantage T/A	07671	91H	60K	Black Wall	0	0	$74.33
+195/50R15	BFGoodrich g-Force Sport Comp-2	49667	82V	0	Black Wall	0	0	$76.17
+185/60R14	BFGoodrich g-Force Super Sport A/S	23640	82H	50K	Black Wall	0	0	$76.86
+195/65R15	BFGoodrich Advantage T/A	90933	91T	75K	Black Wall	8	4	$80.59
+215/60R15	BFGoodrich Advantage T/A	21409	94H	60K	Black Wall	9	10	$81.55
+205/60R15	BFGoodrich Advantage T/A	10233	91H	60K	Black Wall	0	8	$82.46
+185/65R15	BFGoodrich Winter Slalom KSI	10205	88S	0	Black Wall	0	0	$82.49
+195/60R14	BFGoodrich g-Force Super Sport A/S	21155	86H	50K	Black Wall	6	4	$82.53
+195/60R15	BFGoodrich g-Force Super Sport A/S	94511	88H	50K	Black Wall	4	51	$83.00
+205/45ZR16XL	BFGoodrich g-Force Sport Comp-2	39679	83W	0	Black Wall	0	9	$85.00
+P155/80R15	BFGoodrich Radial T/A	06462	83S	0	Raised White Letter	8	7	$85.42
+185/60R15	BFGoodrich Winter Slalom KSI	00973	84S	0	Black Wall	0	0	$86.33
+205/60R16	BFGoodrich Advantage T/A	76465	92V	60K	Black Wall	0	0	$87.11
+205/55ZR16	BFGoodrich g-Force Sport Comp-2	55712	91W	0	Black Wall	8	6	$90.00
+215/45ZR17XL	BFGoodrich g-Force COMP 2 A/S	19100	91W	45K	Black Wall	0	8	$91.16
+205/50R17XL	BFGoodrich g-Force Super Sport A/S	22853	93V	50K	Black Wall	0	0	$92.00
+215/55ZR16XL	BFGoodrich g-Force Sport Comp-2	62565	93W	0	Black Wall	8	0	$93.78
+225/55ZR16	BFGoodrich g-Force T/A KDW	17082	95Y	0	Black Wall	0	0	$93.88
+P225/45R17	BFGoodrich g-Force T/A Drag Radial	54458	91V	0	Black Wall	0	0	$93.97
+215/60R16	BFGoodrich Advantage T/A	02107	95H	60K	Black Wall	9	0	$95.57
+225/60R16	BFGoodrich Advantage T/A	08431	98H	60K	Black Wall	8	8	$96.11
+205/50ZR17	BFGoodrich g-Force Sport Comp-2	15000	89W	0	Black Wall	6	6	$96.70
+225/60R16	BFGoodrich Advantage T/A	58028	98V	60K	Black Wall	24	8	$96.72
+215/55R16XL	BFGoodrich g-Force Super Sport A/S	83701	97H	50K	Black Wall	0	48	$97.00
+195/55R15	BFGoodrich g-Force Super Sport A/S	85026	85V	50K	Black Wall	0	0	$97.00
+205/50ZR17XL	BFGoodrich g-Force COMP 2 A/S	31113	93W	45K	Black Wall	0	6	$98.00
+P225/75R16	BFGoodrich Winter Slalom KSI	90338	104S	0	Black Wall	0	0	$99.20
+215/50ZR17	BFGoodrich g-Force T/A KDW	93358	91Y	0	Black Wall	0	0	$99.64
+215/45ZR17XL	BFGoodrich g-Force Super Sport A/S	06557	91W	35K	Black Wall	0	0	$100.74
+215/50ZR17XL	BFGoodrich g-Force Sport Comp-2	09894	95W	0	Black Wall	0	0	$101.00
+225/45R17XL	BFGoodrich g-Force Super Sport A/S	25343	94H	50K	Black Wall	0	0	$103.00
+225/50ZR17	BFGoodrich g-Force Sport Comp-2	37324	94W	0	Black Wall	0	23	$103.00
+215/60R16	BFGoodrich Winter Slalom KSI	82391	95S	0	Black Wall	0	0	$103.28
+225/45ZR17	BFGoodrich g-Force Sport Comp-2	27062	91W	0	Black Wall	14	26	$103.55
+225/50R17	BFGoodrich Advantage T/A	51434	94T	75K	Black Wall	27	4	$104.49
+235/45ZR17	BFGoodrich g-Force Sport Comp-2	41420	94W	0	Black Wall	8	13	$104.85
+215/65R17	BFGoodrich Advantage T/A	61840	99T	75K	Black Wall	0	0	$105.33
+235/65R16	BFGoodrich Advantage T/A	97843	103T	75K	Black Wall	0	8	$105.79
+225/50ZR17	BFGoodrich g-Force COMP 2 A/S	17354	94W	45K	Black Wall	0	0	$106.47
+235/45ZR17XL	BFGoodrich g-Force COMP 2 A/S	87971	97W	45K	Black Wall	8	8	$107.40
+225/45ZR17XL	BFGoodrich g-Force Super Sport A/S	26483	94W	35K	Black Wall	4	7	$107.92
+245/45ZR17	BFGoodrich g-Force Sport Comp-2	03762	95W	0	Black Wall	9	24	$108.00
+245/50ZR16	BFGoodrich g-Force Super Sport A/S	14689	97W	35K	Black Wall	1	2	$108.31
+P235/75R16XL	BFGoodrich Long Trail T/A Tour	22027	109T	60K	Outlined Raised White Letter	8	8	$109.29
+235/50ZR17	BFGoodrich g-Force COMP 2 A/S	27274	96W	45K	Black Wall	0	0	$109.76
+P205/70R14	BFGoodrich Radial T/A	37157	93S	0	Raised White Letter	26	6	$109.79
+P215/70R15	BFGoodrich Radial T/A	26613	97S	0	Raised White Letter	24	10	$109.91
+215/55R17	BFGoodrich Advantage T/A	82042	94V	60K	Black Wall	28	4	$110.96
+P235/70R15	BFGoodrich Long Trail T/A Tour	30023	102T	60K	Outlined Raised White Letter	0	2	$110.96
+225/40ZR18	BFGoodrich g-Force Sport Comp-2	11558	88W	0	Black Wall	10	30	$111.00
+245/40ZR17	BFGoodrich g-Force Sport Comp-2	55411	91W	0	Black Wall	0	0	$112.00
+P245/75R16	BFGoodrich Long Trail T/A Tour	14340	109T	60K	Outlined Raised White Letter	0	10	$112.89
+215/35ZR18	BFGoodrich g-Force Sport	90714	80W	0	Black Wall	0	0	$113.20
+245/45ZR17	BFGoodrich g-Force Sport	92784	95W	0	Black Wall	0	0	$113.25
+P235/70R16	BFGoodrich Long Trail T/A Tour	29909	104T	60K	Outlined Raised White Letter	5	49	$113.36
+215/65R17	BFGoodrich Winter Slalom KSI	11442	99S	0	Black Wall	0	0	$113.83
+215/55R17	BFGoodrich Advantage T/A	19616	94H	60K	Black Wall	0	39	$114.41
+P225/70R15	BFGoodrich Long Trail T/A Tour	10804	100T	60K	Outlined Raised White Letter	8	0	$114.49
+205/50R16	BFGoodrich Winter Slalom KSI	03307	87S	0	Black Wall	0	0	$114.52
+P235/70R15	BFGoodrich Radial T/A	79673	102S	0	Raised White Letter	5	25	$115.38
+P215/70R16	BFGoodrich Long Trail T/A Tour	15953	99T	60K	Outlined Raised White Letter	8	8	$115.95
+255/40ZR17	BFGoodrich g-Force Sport Comp-2	50903	94W	0	Black Wall	2	1	$116.00
+225/40ZR18XL	BFGoodrich g-Force COMP 2 A/S	70191	92W	45K	Black Wall	6	0	$116.63
+P235/75R16XL	BFGoodrich Rugged Terrain T/A	35261	109T	50K	Outlined Raised White Letter	3	0	$116.94
+235/55ZR17	BFGoodrich g-Force Super Sport A/S	63395	99W	35K	Black Wall	0	0	$117.00
+P215/60R14	BFGoodrich Radial T/A	67439	91S	0	Raised White Letter	4	34	$117.03
+P215/65R15	BFGoodrich Radial T/A	16664	95S	0	Raised White Letter	43	0	$117.41
+245/50ZR16	BFGoodrich g-Force Sport Comp-2	13737	97W	0	Black Wall	14	26	$118.00
+215/45ZR18XL	BFGoodrich g-Force COMP 2 A/S	46035	93W	45K	Black Wall	0	0	$118.58
+225/40ZR18XL	BFGoodrich g-Force Super Sport A/S	34663	92W	35K	Black Wall	0	0	$118.58
+225/55R17	BFGoodrich Advantage T/A	12516	97V	60K	Black Wall	0	0	$118.68
+P235/75R15XL	BFGoodrich Long Trail T/A Tour	04893	108T	60K	Outlined Raised White Letter	2	11	$118.75
+LT195/75R14/8	BFGoodrich All-Terrain T/A KO	34557	99/96R	0	Raised White Letter	4	8	$118.91
+205/55ZR16	BFGoodrich g-Force T/A KDW	08847	91Y	0	Black Wall	0	0	$119.16
+P225/70R14	BFGoodrich Radial T/A	37137	98S	0	Raised White Letter	23	23	$119.25
+215/50R17XL	BFGoodrich Advantage T/A	46850	95V	60K	Black Wall	0	6	$120.37
+P235/55R16	BFGoodrich Traction T/A	56768	96T	70K	Black Wall	8	23	$121.12
+245/40ZR17	BFGoodrich g-Force COMP 2 A/S	24965	91W	45K	Black Wall	6	2	$121.52
+235/60R17	BFGoodrich Advantage T/A	03135	102T	75K	Black Wall	10	12	$121.82
+P325/50R15	BFGoodrich g-Force T/A Drag Radial	53931	100Y	0	Black Wall	0	0	$121.99
+215/45ZR18XL	BFGoodrich g-Force Sport Comp-2	64537	89W	0	Black Wall	0	0	$122.00
+225/50ZR17	BFGoodrich g-Force Super Sport A/S	33887	94W	35K	Black Wall	0	0	$122.12
+P215/60R15	BFGoodrich Radial T/A	71715	93S	0	Raised White Letter	60	20	$122.13
+235/65R17XL	BFGoodrich Winter Slalom KSI	27083	108S	0	Black Wall	0	0	$123.30
+P245/70R16	BFGoodrich Long Trail T/A Tour	12469	106T	60K	Outlined Raised White Letter	8	10	$123.71
+P255/70R16	BFGoodrich Long Trail T/A Tour	32378	109T	60K	Outlined Raised White Letter	4	11	$123.98
+P215/75R16	BFGoodrich Long Trail T/A Tour	27133	101T	60K	Outlined Raised White Letter	0	0	$124.57
+235/40ZR18	BFGoodrich g-Force Sport Comp-2	66818	91W	0	Black Wall	0	0	$125.00
+245/35ZR20XL	BFGoodrich g-Force Sport	31251	95W	0	Black Wall	0	0	$125.02
+245/40ZR17	BFGoodrich g-Force Super Sport A/S	16749	91W	35K	Black Wall	0	0	$127.79
+235/65R16	BFGoodrich Winter Slalom KSI	24153	103S	0	Black Wall	0	0	$128.16
+275/40ZR17	BFGoodrich g-Force Sport Comp-2	31629	98W	0	Black Wall	14	8	$130.00
+275/40ZR17	BFGoodrich g-Force COMP 2 A/S	21945	98W	45K	Black Wall	8	8	$130.35
+P235/70R17XL	BFGoodrich Long Trail T/A Tour	30718	108T	60K	Black Wall	8	0	$130.48
+LT215/85R16/10	BFGoodrich Commercial T/A AS2	19836	115/112R	0	Black Wall	0	0	$133.22
+235/65R17	BFGoodrich Long Trail T/A Tour	80976	104H	50K	Black Wall	0	0	$134.31
+P265/75R16	BFGoodrich Long Trail T/A Tour	23207	114T	60K	Outlined Raised White Letter	0	12	$134.95
+255/35ZR20XL	BFGoodrich g-Force Sport Comp-2	33909	97W	0	Black Wall	0	0	$135.00
+P235/65R16	BFGoodrich Long Trail T/A Tour	13473	101T	60K	Black Wall	0	0	$135.87
+225/55R18	BFGoodrich Advantage T/A	96542	98H	60K	Black Wall	0	0	$136.71
+235/40ZR18XL	BFGoodrich g-Force COMP 2 A/S	08126	95W	45K	Black Wall	0	8	$138.18
+P255/70R15	BFGoodrich Radial T/A	94081	108S	0	Raised White Letter	30	25	$139.27
+P255/65R16	BFGoodrich Long Trail T/A Tour	95489	106T	60K	Black Wall	0	0	$139.54
+235/50ZR17	BFGoodrich g-Force T/A KDW	28538	96Y	0	Black Wall	0	0	$139.76
+P255/60R15	BFGoodrich Radial T/A	57931	102S	0	Raised White Letter	61	11	$140.76
+235/50ZR18	BFGoodrich g-Force Sport Comp-2	88750	97W	0	Black Wall	4	2	$143.00
+30X9.50R15/6	BFGoodrich All-Terrain T/A KO	96888	104S	0	Raised White Letter	0	7	$143.56
+P265/70R16	BFGoodrich Radial Long Trail T/A	88357	111T	0	Raised Outlined White Letter	21	50	$144.20
+235/50ZR18	BFGoodrich g-Force COMP 2 A/S	20279	97W	45K	Black Wall	0	0	$145.05
+245/45ZR18	BFGoodrich g-Force COMP 2 A/S	38853	96W	45K	Black Wall	0	8	$146.67
+32X11.50R15/6	BFGoodrich All-Terrain T/A KO	61107	113R	0	Raised White Letter	1	31	$149.28
+245/45ZR18	BFGoodrich g-Force Super Sport A/S	31105	96W	35K	Black Wall	0	0	$149.78
+LT235/85R16/10	BFGoodrich Rugged Terrain T/A	21480	120/116R	50K	Outlined Raised White Letter	0	0	$149.99
+LT225/75R16/10	BFGoodrich Commercial T/A All-Season	67515	115Q	50K	Raised Black Letter	0	0	$150.99
+P275/60R15	BFGoodrich Radial T/A	17476	107S	0	Raised White Letter	20	24	$151.22
+P235/65R18	BFGoodrich Long Trail T/A Tour	30080	104T	60K	Black Wall	8	8	$151.73
+LT235/75R15/6	BFGoodrich Commercial T/A Traction	42575	104Q	0	Black Wall	0	0	$151.75
+LT225/75R16/10	BFGoodrich All-Terrain T/A KO	10761	115/112S	0	Raised White Letter	0	0	$152.77
+P235/70R17XL	BFGoodrich Rugged Terrain T/A	96208	108T	50K	Black Wall	0	0	$153.48
+255/45ZR20	BFGoodrich g-Force Sport Comp-2	29432	101W	0	Black Wall	0	4	$154.00
+LT225/75R16/10	BFGoodrich Rugged Terrain T/A	93449	115/112R	50K	Black Wall	0	0	$154.00
+P265/65R17	BFGoodrich Radial Long Trail T/A	94178	110T	0	Raised Outlined White Letter	8	16	$154.57
+LT215/85R16/8	BFGoodrich Commercial T/A Traction	61161	110Q	0	Black Wall	0	0	$154.60
+P265/60R18	BFGoodrich Radial Long Trail T/A	27971	109T	0	Black Wall	8	17	$154.96
+P235/75R17	BFGoodrich Rugged Terrain T/A	28627	108T	50K	Outlined Raised White Letter	0	0	$156.27
+P265/65R17	BFGoodrich Rugged Terrain T/A	39131	110T	50K	Outlined Raised White Letter	0	0	$157.25
+LT235/80R17/10	BFGoodrich Commercial T/A AS2	11616	120/117R	0	Black Wall	0	0	$160.41
+LT265/75R16/10	BFGoodrich Commercial T/A AS2	01665	123R	0	Black Wall	0	0	$160.73
+245/60R18	BFGoodrich Long Trail T/A Tour	02829	105H	50K	Black Wall	7	0	$161.64
+255/45ZR18	BFGoodrich g-Force COMP 2 A/S	15054	99W	45K	Black Wall	0	0	$161.71
+P255/70R17	BFGoodrich Long Trail T/A Tour	12487	110T	60K	Outlined Raised White Letter	0	0	$162.65
+255/55R18	BFGoodrich Long Trail T/A Tour	22371	105V	40K	Black Wall	0	0	$162.95
+245/45ZR19	BFGoodrich g-Force Sport Comp-2	17676	98W	0	Black Wall	0	0	$163.00
+P265/70R18	BFGoodrich Long Trail T/A Tour	06615	114T	60K	Outlined Raised White Letter	0	21	$163.16
+215/45ZR17XL	BFGoodrich g-Force T/A KDW	40190	91Y	0	Black Wall	0	0	$163.50
+LT235/85R16/10	BFGoodrich All-Terrain T/A KO2	75445	120/116S	0	Raised White Letter	12	20	$164.30
+265/35ZR18	BFGoodrich g-Force Sport Comp-2	17880	93W	0	Black Wall	0	0	$165.00
+245/45ZR20XL	BFGoodrich g-Force COMP 2 A/S	46912	103W	45K	Black Wall	8	8	$165.63
+LT225/75R16/10	BFGoodrich All-Terrain T/A KO2	10598	115/112S	0	Raised White Letter	8	12	$165.86
+33X12.50R15/6	BFGoodrich All-Terrain T/A KO	09681	108R	0	Raised White Letter	1	7	$167.37
+245/40ZR19	BFGoodrich g-Force COMP 2 A/S	77099	94W	45K	Black Wall	0	0	$167.59
+LT215/75R15/6	BFGoodrich Mud Terrain T/A KM2	21765	100/97Q	0	Raised White Letter	0	0	$167.70
+P265/70R16	BFGoodrich Rugged Terrain T/A	59876	111T	50K	Outlined Raised White Letter	1	2	$167.80
+245/40ZR19XL	BFGoodrich g-Force Sport Comp-2	18887	98W	0	Black Wall	0	4	$168.00
+225/40ZR19XL	BFGoodrich g-Force COMP 2 A/S	56599	93W	45K	Black Wall	0	0	$170.53
+P265/70R18	BFGoodrich Rugged Terrain T/A	22972	114T	50K	Outlined Raised White Letter	25	8	$170.72
+LT245/75R17/10	BFGoodrich Commercial T/A AS2	39532	121/118R	0	Black Wall	2	5	$173.41
+LT245/75R17/10	BFGoodrich Rugged Trail T/A	69928	121R	0	Raised Outlined White Letter	0	0	$173.89
+255/35ZR19XL	BFGoodrich g-Force Sport Comp-2	12626	96W	0	Black Wall	0	0	$174.00
+LT245/75R17/10	BFGoodrich Rugged Trail T/A	86693	121R	0	Raised Black Letter	0	0	$175.66
+P205/50ZR15	BFGoodrich g-Force R1S	22024	84W	0	Black Wall	0	0	$175.67
+35X12.50R15/6	BFGoodrich All-Terrain T/A KO	49774	113Q	0	Raised White Letter	8	25	$175.82
+P275/70R16	BFGoodrich Rugged Terrain T/A	34489	114T	50K	Outlined Raised White Letter	0	0	$175.82
+275/40ZR18	BFGoodrich g-Force Sport Comp-2	09929	99W	0	Black Wall	0	0	$176.00
+LT245/70R16/8	BFGoodrich All-Terrain T/A KO	03219	113S	0	Raised White Letter	8	32	$176.48
+P295/50R15	BFGoodrich Radial T/A	16225	105S	0	Raised White Letter	12	0	$177.65
+235/50ZR18	BFGoodrich g-Force T/A KDWS	64168	97W	0	Black Wall	6	19	$179.00
+P275/55R20	BFGoodrich Rugged Terrain T/A	28341	111T	50K	Raised Black Letter	8	0	$179.55
+LT225/75R16/10	BFGoodrich Commercial T/A Traction	72846	115Q	0	Black Wall	0	0	$179.73
+LT245/75R16/10	BFGoodrich Commercial T/A Traction	85980	120Q	0	Black Wall	0	0	$181.95
+LT245/75R17/10	BFGoodrich Rugged Trail T/A	58944	121R	0	Outlined Raised White Letter	29	8	$182.02
+P245/55R18	BFGoodrich Radial T/A Spec	11632	102T	0	Black Wall	4	50	$184.02
+P275/60R20	BFGoodrich Long Trail T/A Tour	32247	114T	60K	Black Wall	12	8	$184.70
+LT245/75R16/10	BFGoodrich All-Terrain T/A KO	11379	120/116S	0	Raised White Letter	0	0	$184.84
+P205/50ZR15	BFGoodrich g-Force R1S	22024	84W	0	Black Wall	0	0	$186.11
+P205/50ZR15	BFGoodrich g-Force R1	31575	84W	0	Black Wall	0	0	$186.11
+275/40ZR18	BFGoodrich g-Force Super Sport A/S	72702	99W	35K	Black Wall	0	0	$188.17
+LT235/75R15/6	BFGoodrich Mud Terrain T/A KM2	20745	104Q	0	Raised White Letter	0	0	$188.97
+LT245/70R17/10	BFGoodrich All-Terrain T/A KO	34162	119/116R	0	Raised White Letter	0	4	$189.91
+LT235/80R17/10	BFGoodrich Commercial T/A All-Season	98529	120/117Q	50K	Black Wall	0	0	$190.42
+245/50ZR19XL	BFGoodrich g-Force COMP 2 A/S	08793	105W	45K	Black Wall	0	0	$191.10
+LT255/70R16/8	BFGoodrich All-Terrain T/A KO	78762	115S	0	Raised White Letter	0	0	$191.83
+LT265/70R17/10	BFGoodrich Commercial T/A AS2	17795	121/118R	0	Black Wall	0	0	$192.71
+31X10.50R15/6	BFGoodrich Mud Terrain T/A KM2	00606	109Q	0	Raised White Letter	0	0	$192.71
+LT265/70R17/10	BFGoodrich Rugged Trail T/A	96540	121R	0	Outlined Raised White Letter	21	8	$193.07
+LT235/80R17/10	BFGoodrich Rugged Terrain T/A	10679	120/117R	50K	Outlined Raised White Letter	0	0	$194.33
+LT245/75R17/10	BFGoodrich All-Terrain T/A KO	10209	121/118R	0	Raised White Letter	8	16	$195.01
+LT265/70R17/6	BFGoodrich All-Terrain T/A KO2	66255	112/109S	0	Raised White Letter	22	61	$196.26
+LT235/80R17/10	BFGoodrich All-Terrain T/A KO	27039	120/117R	0	Raised White Letter	0	0	$196.31
+LT235/70R16/6	BFGoodrich Mud Terrain T/A KM2	24503	104/101Q	0	Raised White Letter	0	0	$196.50
+LT265/70R17/6	BFGoodrich All-Terrain T/A KO	12665	112R	0	Raised White Letter	0	1	$196.99
+LT265/75R16/10	BFGoodrich Commercial T/A Traction	53176	123Q	0	Black Wall	0	0	$197.99
+285/35ZR19XL	BFGoodrich g-Force Sport Comp-2	38139	103W	0	Black Wall	0	0	$198.00
+LT285/75R16/10	BFGoodrich Rugged Terrain T/A	31608	126/123R	50K	Outlined Raised White Letter	0	20	$199.10
+31X10.50R15/6	BFGoodrich Mud Terrain T/A KM2	24264	109Q	0	Raised White Letter	0	4	$200.04
+LT285/75R16/10	BFGoodrich All-Terrain T/A KO2	05855	126/123R	0	Raised White Letter	61	84	$201.02
+LT245/70R17/10	BFGoodrich Mud Terrain T/A KM2	99340	116Q	0	Raised White Letter	1	0	$204.62
+P245/45ZR16	BFGoodrich g-Force R1	44288	88W	0	Black Wall	0	0	$206.48
+LT265/70R17/10	BFGoodrich All-Terrain T/A KO	72981	121/118R	0	Raised White Letter	93	405	$206.99
+LT235/85R16/10	BFGoodrich Mud Terrain T/A KM2	39551	120/116Q	0	Raised White Letter	0	0	$207.87
+32X11.50R15/6	BFGoodrich Mud Terrain T/A KM2	11079	113Q	0	Raised White Letter	0	0	$211.84
+P275/65R18	BFGoodrich Rugged Trail T/A	84462	114T	0	Outlined Raised White Letter	0	0	$213.33
+LT235/85R16/10	BFGoodrich Mud Terrain T/A KM2	40661	120/116Q	0	Raised White Letter	0	0	$215.49
+P215/45ZR18	BFGoodrich g-Force T/A KDWS	21159	89W	0	Black Wall	0	0	$215.55
+LT315/75R16/10	BFGoodrich All-Terrain T/A KO2	50203	127/124R	0	Raised White Letter	0	43	$221.00
+33X12.50R15/6	BFGoodrich Mud Terrain T/A KM2	45738	108Q	0	Raised White Letter	0	0	$223.17
+235/50ZR18	BFGoodrich g-Force T/A KDW	49336	97Y	0	Black Wall	0	0	$225.66
+LT275/65R18/10	BFGoodrich All-Terrain T/A KO2	36457	123/120R	0	Raised White Letter	8	30	$226.44
+LT305/70R16/10	BFGoodrich All-Terrain T/A KO	33393	124/121R	0	Raised White Letter	0	0	$226.64
+LT275/70R16/8	BFGoodrich All-Terrain T/A KO2	97884	119/116S	0	Black Wall	0	0	$229.33
+33X12.50R15/8	BFGoodrich Mud Terrain T/A KM2	37047	108Q	0	Raised White Letter	0	4	$231.35
+LT285/70R17/10	BFGoodrich Rugged Terrain T/A	55942	121/118R	50K	Outlined Raised White Letter	2	0	$232.90
+LT245/75R17/10	BFGoodrich Mud Terrain T/A KM2	29446	121/118Q	0	Raised White Letter	0	0	$233.05
+LT255/75R17/6	BFGoodrich Mud Terrain T/A KM	86927	111/108Q	0	Black Wall	8	22	$235.18
+LT275/65R17/10	BFGoodrich All-Terrain T/A KO	26795	121/118S	0	Raised White Letter	0	0	$235.79
+LT255/70R16/8	BFGoodrich Mud Terrain T/A KM2	38569	115/112Q	0	Raised White Letter	0	0	$235.89
+LT265/75R16/10	BFGoodrich Mud Terrain T/A KM2	01822	123/120Q	0	Raised White Letter	0	0	$236.28
+LT245/75R16/10	BFGoodrich Mud Terrain T/A KM2	13290	120/116Q	0	Raised White Letter	0	0	$236.42
+LT275/60R20/8	BFGoodrich All-Terrain T/A KO2	64811	119/116S	0	Raised Black Letter	4	4	$240.59
+P235/40ZR17	BFGoodrich g-Force R1	08860	84W	0	Black Wall	0	0	$242.20
+P225/45ZR17	BFGoodrich g-Force R1	49121	84W	0	Black Wall	0	0	$247.54
+LT245/70R17/10	BFGoodrich Mud Terrain T/A KM2	26841	119/116Q	0	Raised White Letter	0	0	$247.85
+LT265/65R18/10	BFGoodrich All-Terrain T/A KO	02625	122/119R	0	Raised White Letter	19	0	$250.17
+LT265/65R18/10	BFGoodrich All-Terrain T/A KO2	05260	122/119R	0	Raised White Letter	0	0	$250.59
+LT285/65R18/10	BFGoodrich All-Terrain T/A KO2	93857	125/122R	0	Raised White Letter	48	27	$251.79
+LT265/75R16/10	BFGoodrich Mud Terrain T/A KM2	19683	123Q	0	Raised White Letter	0	0	$252.15
+P245/40ZR17LL	BFGoodrich g-Force R1	50260	86W	0	Black Wall	0	0	$254.31
+LT285/75R16/10	BFGoodrich Mud Terrain T/A KM2	32537	126/123Q	0	Raised White Letter	0	0	$260.58
+LT285/75R16/10	BFGoodrich Mud Terrain T/A KM2	12544	126/123Q	0	Raised White Letter	0	0	$270.13
+LT305/65R17/10	BFGoodrich All-Terrain T/A KO	00875	121/118R	0	Raised White Letter	4	15	$270.77
+LT315/70R17/8	BFGoodrich All-Terrain T/A KO	66659	121R	0	Black Wall	9	27	$274.44
+LT265/70R17	BFGoodrich Mud Terrain T/A KM2	73083	121/118Q	0	Raised White Letter	8	8	$274.61
+34X10.50R17/8	BFGoodrich All-Terrain T/A KO2	91644	120R	0	Raised White Letter	0	0	$276.03
+LT275/65R20/10	BFGoodrich All-Terrain T/A KO2	17764	126/123S	0	Raised Black Letter	12	6	$278.10
+LT275/65R20/10	BFGoodrich All-Terrain T/A KO	11420	126/123S	0	Raised White Letter	0	0	$290.22
+P245/40ZR18LL	BFGoodrich g-Force R1S	44217	88W	0	Black Wall	0	0	$295.74
+LT285/70R17/8	BFGoodrich Mud Terrain T/A KM2	37037	121/118Q	0	Raised White Letter	8	4	$299.93
+LT285/70R17/8	BFGoodrich Mud Terrain T/A KM2	83284	121Q	0	Raised White Letter	0	0	$300.69
+LT305/65R18/10	BFGoodrich All-Terrain T/A KO	35237	124/121R	0	Raised White Letter	4	14	$305.77
+37X12.50R20/8	BFGoodrich All-Terrain T/A KO	74497	120S	0	Raised White Letter	0	0	$308.69
+P315/35ZR17	BFGoodrich g-Force R1	94637	93W	0	Black Wall	0	0	$316.48
+LT315/75R16/8	BFGoodrich Mud Terrain T/A KM2	24970	121Q	0	Raised White Letter	0	0	$319.78
+LT325/65R18/10	BFGoodrich All-Terrain T/A KO	05968	127/124R	0	Raised White Letter	8	4	$327.45
+LT285/65R20/10	BFGoodrich All-Terrain T/A KO2	88423	127/124S	0	Raised Black Letter	8	10	$340.11
+P335/30ZR18	BFGoodrich g-Force R1	43792	95W	0	Black Wall	0	0	$352.19
+LT305/55R20/10	BFGoodrich All-Terrain T/A KO	30836	121/118S	0	Raised White Letter	0	0	$361.87
+LT285/55R20/8	BFGoodrich All-Terrain T/A KO	30710	117/114T	0	Raised White Letter	37	8	$368.36
+LT285/70R18/10	BFGoodrich Mud Terrain T/A KM2	22412	127Q	0	Raised White Letter	0	0	$410.66
+35X12.50R18/8	BFGoodrich Mud Terrain T/A KM2	28459	118Q	0	Raised White Letter	0	8	$421.82
+LT325/60R20/10	BFGoodrich All-Terrain T/A KO	38941	126/123S	0	Raised White Letter	4	3	$463.68
+38X14.50R17/8	BFGoodrich Mud Terrain T/A KM2	23241	121Q	0	Black Wall	0	0	$523.35
+35X12.50R15/6	BFGoodrich Baja T/A	02516	113T	0	Black Wall	0	0	$594.05
+37X12.50R20/8	BFGoodrich Mud Terrain T/A KM2	39143	120Q	0	Raised White Letter	0	0	$700.76
+245/40ZR17/XL	Blacklion BU66 HP	BL3466	95W	0	NA	0	0	$67.12
+7.00-15/8	Bluestar LTB 627 Rib	109-252-7052	NA	0	Black Wall	0	0	$58.54
+7.50-16/10	Bluestar LTB 627 Rib	109-252-7563	NA	0	Black Wall	0	0	$72.77

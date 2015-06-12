@@ -1,0 +1,21 @@
+# Logfile created on 2015-06-09 21:58:23 -0700 by logger.rb/31641
+I, [2015-06-09T21:58:26.715445 #2236]  INFO -- : Mysql connection established
+E, [2015-06-09T22:01:38.240667 #2236] ERROR -- : Error Occured - undefined method `atdonline_daily_data_email' for AtdonlineMailer:Class
+E, [2015-06-09T22:01:38.241669 #2236] ERROR -- : ["c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionmailer-3.2.17/lib/action_mailer/base.rb:438:in `method_missing'", "atdonline_data_agent.rb:112:in `write_data_to_file'", "atdonline_data_agent.rb:86:in `start_processing'", "atdonline_data_agent.rb:151:in `<main>'"]
+I, [2015-06-10T12:31:40.752541 #436]  INFO -- : Mysql connection established
+I, [2015-06-10T12:32:16.206554 #436]  INFO -- : Sending email..
+I, [2015-06-10T12:36:24.044582 #7132]  INFO -- : Mysql connection established
+I, [2015-06-10T12:37:08.348719 #7132]  INFO -- : Sending email..
+I, [2015-06-10T12:54:27.878778 #4820]  INFO -- : Mysql connection established
+I, [2015-06-10T12:55:08.922423 #4820]  INFO -- : Sending email..
+I, [2015-06-10T14:06:12.946984 #8992]  INFO -- : Mysql connection established
+I, [2015-06-10T14:06:52.557087 #8992]  INFO -- : Sending email..
+I, [2015-06-10T14:08:16.907824 #7932]  INFO -- : Mysql connection established
+I, [2015-06-10T14:08:51.179138 #7932]  INFO -- : Sending email..
+I, [2015-06-11T09:21:10.892655 #3964]  INFO -- : Mysql connection established
+I, [2015-06-11T09:24:33.321852 #8640]  INFO -- : Mysql connection established
+I, [2015-06-11T09:26:25.723708 #8952]  INFO -- : Mysql connection established
+I, [2015-06-11T09:42:11.193781 #8952]  INFO -- : Sending email..
+I, [2015-06-12T06:37:50.800307 #10132]  INFO -- : Mysql connection established
+I, [2015-06-12T06:39:21.118746 #4748]  INFO -- : Mysql connection established
+I, [2015-06-12T06:40:29.573182 #4748]  INFO -- : Sending email..

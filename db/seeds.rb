@@ -13,3 +13,10 @@
                 
         end
 end	
+
+lis_1=["BFGoodrich",		"Blacklion",		"Bluestar",		"Bridgestone",		"Capitol",		"Continental",		"Cooper",		"Dayton",		"Dean",		"Denman",		"Dick Cepek",		"Double Coin",		"Dunlop",		"Durun",		"Falken",		"Federal",		"Fierce",		"Firestone",		"Fuzion",		"General",		"Gislaved",		"Goodride",		"Goodyear",		"Gremax",		"Hankook",		"Hercules",		"Hi Run",		"Interco",		"Ironman",		"Jetzon",		"JK Tyre",		"Kelly",		"Kumho",		"Lanvigator",		"Long March",		"Mastercraft	",		"Maxtrek",		"Michelin",		"Mickey Thompson",		"Misc",		"Nexen",		"Nitto",		"Nokian",		"Omni",		"Pirelli",		"Primewell",		"Private Label",		"Regul",		"Republic",		"Samson",		"Specialty",		"Suntek",		"Toyo",		"TracMax",		"Uniroyal",		"Vogue",		"Westlake",		"Yokohama"]
+lis_1.each do |l_1|
+        if !AtdonlineList.exists?(:brand_name => l_1)
+                create_atdonline_lists = AtdonlineList.create(:category => "tires",:subcategory => "passenger_and_light_truck", :brand_name => l_1, :is_enabled => true)
+        end
+end	
