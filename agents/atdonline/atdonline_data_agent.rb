@@ -121,6 +121,7 @@ class AtdonlineDatatBuilderAgent
 						
 						begin
 						$logger.info size
+						sleep 1
 						AtdonlineData.create(:size=>size,:description=>description,:supplier=>supplier,:load_speed=>load_speed,:mileage_warranty=>mileage_warranty,:sidewall=>sidewall,:local_dc=>local_dc,:local=>local,:cost=>cost)
 						rescue
 						puts "Error in Inserting record"
