@@ -60,7 +60,7 @@ class AtdonlineDatatBuilderAgent
 		def start_processing
 										begin
 																		if $db_connection_established
-																				#~ Headless.ly do		
+																				Headless.ly do		
 																				
 																				AtdonlineData.delete_all
 																				browser = Watir::Browser.new
@@ -74,6 +74,7 @@ class AtdonlineDatatBuilderAgent
 																					
 																				lis = AtdonlineList.where(:is_enabled=>true) 
 																				lis.each do |l|
+																						$logger.info "processing...... #{l['id']}"
 																						browser.goto "http://www.atdonline.com/search/refine?preferredBrands=N&Ntk=Search.atdonline_global&availabilityOptionSelected=national&N=10929&NoResultsFromFiltersMessaging=N&Ntt=**#{l['brand_name']}**&categoryTitle=Passenger+%26+Light+Truck"
 																				doc = Nokogiri::HTML.parse(browser.html)
 																				temp_1=doc.css("table tbody tr")
@@ -88,7 +89,7 @@ class AtdonlineDatatBuilderAgent
 																				local="NA"
 																				cost = "NA"
 
-		puts size=t_1.css("td.product").to_s.split("</strong>").first.split("<strong>").last.gsub("'","").strip() if !t_1.css("td.product").nil? && !t_1.css("td.product").to_s.split("</strong>").first.nil?
+		size=t_1.css("td.product").to_s.split("</strong>").first.split("<strong>").last.gsub("'","").strip() if !t_1.css("td.product").nil? && !t_1.css("td.product").to_s.split("</strong>").first.nil?
 		if size != "NA"
 		puts description=t_1.css("td.product").to_s.split("</strong>")[1].split("<br>")[1].split("<br>").first.gsub("'","").strip() if !t_1.css("td.product").nil? && !t_1.css("td.product").to_s.split("</strong>")[1].nil?
 			if t_1.css("td.specs").at('span:contains("Supplier #")')
@@ -119,6 +120,7 @@ class AtdonlineDatatBuilderAgent
 					
 						
 						begin
+						$logger.info size
 						AtdonlineData.create(:size=>size,:description=>description,:supplier=>supplier,:load_speed=>load_speed,:mileage_warranty=>mileage_warranty,:sidewall=>sidewall,:local_dc=>local_dc,:local=>local,:cost=>cost)
 						rescue
 						puts "Error in Inserting record"
@@ -133,7 +135,7 @@ class AtdonlineDatatBuilderAgent
 																				write_data_to_file																				
 																		
 																		end    
-				#~ end    
+				end    
 										rescue Exception => e
 														puts "Error Occured - #{e.message}"
 														$logger.error "Error Occured - #{e.message}"
