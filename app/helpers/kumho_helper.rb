@@ -1,0 +1,2 @@
+module KumhoHelper
+end

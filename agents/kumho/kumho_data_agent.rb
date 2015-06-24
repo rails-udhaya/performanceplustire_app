@@ -22,8 +22,8 @@ def kumho_daily_data_email(fi_name,attach)
 		$logger.info "Sending email.."
 		 attachments[fi_name] = File.read(attach)
     mail(
-            :to      => "kbrown@performanceplustire.com",
-            #~ :to      => "udhayakumar.dhanabalan@gmail.com",
+            #~ :to      => "kbrown@performanceplustire.com",
+            :to      => "udhayakumar.dhanabalan@gmail.com",
 												:bcc => ["udhayakumar.dhanabalan@gmail.com"],
             :from    => "scrape.coder@gmail.com",
             :subject => "KUMHO DAILY DATA"
@@ -60,7 +60,7 @@ class KumhoDatatBuilderAgent
 		def start_processing
 										begin
 																		if $db_connection_established
-																				Headless.ly do		
+																				#~ Headless.ly do		
 																		KumhotireepicData.delete_all
 																		patt = KumhotireepicPattern.where(:is_enabled => true)
 																		browser = Watir::Browser.new:firefox, :profile => @profile
@@ -123,7 +123,7 @@ class KumhoDatatBuilderAgent
 																				write_data_to_file																				
 																		
 																		end    
-																end    
+																#~ end    
 										rescue Exception => e
 														$logger.error "Error Occured - #{e.message}"
 														$logger.error e.backtrace

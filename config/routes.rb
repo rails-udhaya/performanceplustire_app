@@ -4,6 +4,7 @@ PerformanceplustireApp::Application.routes.draw do
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
+  match 'kumho/kumho_data_process' => 'kumho#kumho_data_process'
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
