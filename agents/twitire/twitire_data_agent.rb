@@ -64,7 +64,7 @@ class TwitireDatatBuilderAgent
 																								TwitireData.delete_all
 																								patt = TwitireList.where(:is_enabled => true)
 
-																								browser = Watir::Browser.new :firefox, :profile => 'default'
+																								browser = Watir::Browser.new:firefox, :profile => @profile
 																								browser.goto "http://twitire.tireweb.com/"
 																								browser.text_field(:id, 'UserName').set($site_details["twitire_user_name"])
 																								browser.text_field(:id, 'PASSWORD').set($site_details["twitire_password"])
