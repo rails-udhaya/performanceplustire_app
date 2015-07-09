@@ -2,9 +2,11 @@
 # connect to the MySQL server
 def get_db_connection(env)
   $db_connection_established = false
+  site_config = YAML::load(File.open("#{File.dirname(__FILE__)}/site_properties.yml"))
   db_config = YAML::load(File.open("#{File.dirname(__FILE__)}/database.yml"))
   $AGENT_ENV = env
   config = db_config[env]
+  $site_details = site_config[env]
   begin
     # connect to the MySQL server
     ActiveRecord::Base.establish_connection(config)

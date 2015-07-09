@@ -1,0 +1,18 @@
+# MySQL.  Versions 4.1 and 5.0 are recommended.
+#
+#
+# Be sure to use new-style password hashing:
+#   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
+development:
+  email_to: "udhayakumar.dhanabalan@gmail.com"
+  twitire_user_name: "TWE"
+  twitire_password: "11831"  
+  kumho_user_name: "1090614"
+  kumho_password: "3910pplus"
+
+production:
+  email_to: "udhaya.dhanabalan@gmail.com"
+  twitire_user_name: "TWE"
+  twitire_password: "11831"
+  kumho_user_name: "1090614"
+  kumho_password: "3910pplus"

@@ -30,8 +30,8 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: performanceplustire_app_production
+  database: perform_db_tireprod
   pool: 5
-  username: root
-  password: root
+  username: dptireprfm
+  password: 5HpTE9wfCuq
   host: 127.0.0.1
