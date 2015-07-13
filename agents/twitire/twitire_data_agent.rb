@@ -99,8 +99,8 @@ class TwitireDatatBuilderAgent
 																																				attribute4_value	= "Tires"
 																																				quantity_update	= "Unshipped"
 																																					inventory_number = t_1.css("td")[1].text.gsub("'","''").strip()+":D" if t_1.css("td") && !t_1.css("td")[1].nil?
-																																					quantity = t_1.css("td")[5].text.gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[5].nil?
-																																					dc_quantity = "Troy="+t_1.css("td")[5].text.gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[5].nil?
+																																					quantity = t_1.css("td")[5].text.gsub("+","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[5].nil?
+																																					dc_quantity = "Troy="+t_1.css("td")[5].text.gsub("+","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[5].nil?
 																																					seller_cost = t_1.css("td")[4].text.gsub("$","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[4].nil?
 																																				manufacturer = p.category
 																																				mpn= t_1.css("td")[1].text.gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[1].nil?
@@ -155,7 +155,6 @@ class TwitireDatatBuilderAgent
 								f.write "Inventory Number"+"\t"+"Quantity"+"\t"+"DC Quantity"+"\t"+"Seller Cost"+"\t"+"Manufacturer"+"\t"+"MPN"+"\t"+"Attribute1Name"+"\t"+"Attribute1Value"+"\t"+"Attribute2Name"+"\t"+"Attribute2Value"+"\t"+"Classification"+"\t"+"DC Code"+"\t"+"Attribute3Name"+"\t"+"Attribute3Value"+"\t"+"Attribute4Name"+"\t"+"Attribute4Value"+"\t"+"Quantity Update"
 								f.write "\n"
 								@twitiredata.each do |twitiredata|
-										f.write twitiredata.inventory_number+"\t"+twitiredata.quantity+"\t"+"\t"+twitiredata.seller_cost+"\t"+twitiredata.dc_quantity
 										f.write twitiredata.inventory_number+"\t"+twitiredata.quantity+"\t"+twitiredata.dc_quantity+"\t"+twitiredata.seller_cost+"\t"+twitiredata.manufacturer+"\t"+twitiredata.mpn+"\t"+twitiredata.attribute1_name+"\t"+twitiredata.attribute1_value+"\t"+twitiredata.attribute2_name+"\t"+twitiredata.attribute2_value+"\t"+twitiredata.classification+"\t"+twitiredata.dc_code+"\t"+twitiredata.attribute3_name+"\t"+twitiredata.attribute3_value+"\t"+twitiredata.attribute4_name+"\t"+twitiredata.attribute4_value+"\t"+twitiredata.quantity
 										f.write "\n"
 								end
