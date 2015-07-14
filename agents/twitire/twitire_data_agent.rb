@@ -80,7 +80,7 @@ class TwitireDatatBuilderAgent
 																														doc = Nokogiri::HTML.parse(browser.html)
 																														temp_1 = doc.css("table#ATable tr")
 																														temp_1.each_with_index do |t_1,s|
-																																		if s > 2
+																																		if s > 1
 																																				inventory_number	= ""
 																																				quantity		= ""
 																																				dc_quantity		= ""
@@ -98,32 +98,42 @@ class TwitireDatatBuilderAgent
 																																				attribute4_name	= "eBay Store Category"
 																																				attribute4_value	= "Tires"
 																																				quantity_update	= "Unshipped"
+																																						if (t_1.css("td") && t_1.css("td")[0] && t_1.css("td")[0].css("table"))
+																																								temp_9 = t_1.css("td")[0].css("table td")
+																																								temp_9.each do |t_9|
+																																										t_9.remove
+																																								end
+																																								t_1.css("td")[0].css("table").remove if t_1.css("td")[0].css("table")
+																																						end
+
 																																					inventory_number = t_1.css("td")[1].text.gsub("'","''").strip()+":D" if t_1.css("td") && !t_1.css("td")[1].nil?
-																																					quantity = t_1.css("td")[5].text.gsub("+","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[5].nil?
-																																					dc_quantity = "Troy="+t_1.css("td")[5].text.gsub("+","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[5].nil?
-																																					seller_cost = t_1.css("td")[4].text.gsub("$","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[4].nil?
-																																				manufacturer = p.category
-																																				mpn= t_1.css("td")[1].text.gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[1].nil?
-																																				attribute1_value		= p.category
-																																				attribute2_value		= t_1.css("td")[3].text.gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[3].nil?
-																																				#~ puts inventory_number	
-																																				#~ puts quantity	
-																																				#~ puts dc_quantity	
-																																				#~ puts seller_cost	
-																																				#~ puts manufacturer
-																																				#~ puts mpn	
-																																				#~ puts attribute1_name
-																																				#~ puts attribute1_value	
-																																				#~ puts attribute2_name
-																																				#~ puts attribute2_value
-																																				#~ puts classification
-																																				#~ puts dc_code	
-																																				#~ puts attribute3_name
-																																				#~ puts attribute3_value
-																																				#~ puts attribute4_name
-																																				#~ puts attribute4_value
-																																				#~ puts quantity_update
-	TwitireData.create(:inventory_number=>inventory_number, :quantity=>quantity, :dc_quantity=>dc_quantity, :seller_cost => seller_cost, :manufacturer => manufacturer, :mpn => mpn, :attribute1_name=> attribute1_name, :attribute1_value => attribute1_value, :attribute2_name => attribute2_name, :attribute2_value => attribute2_value, :classification => classification, :dc_code => dc_code, :attribute3_name => attribute3_name, :attribute3_value => attribute3_value, :attribute4_name => attribute4_name, :attribute4_value => attribute4_value, :quantity_update => quantity_update)
+																																					if inventory_number != ""
+																																							quantity = t_1.css("td")[5].text.gsub("+","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[5].nil?
+																																							dc_quantity = "Troy="+t_1.css("td")[5].text.gsub("+","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[5].nil?
+																																							seller_cost = t_1.css("td")[4].text.gsub("$","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[4].nil?
+																																						manufacturer = p.category
+																																						mpn= t_1.css("td")[1].text.gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[1].nil?
+																																						attribute1_value		= p.category
+																																						attribute2_value		= t_1.css("td")[3].text.gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[3].nil?
+																																						#~ puts inventory_number	
+																																						#~ puts quantity	
+																																						#~ puts dc_quantity	
+																																						#~ puts seller_cost	
+																																						#~ puts manufacturer
+																																						#~ puts mpn	
+																																						#~ puts attribute1_name
+																																						#~ puts attribute1_value	
+																																						#~ puts attribute2_name
+																																						#~ puts attribute2_value
+																																						#~ puts classification
+																																						#~ puts dc_code	
+																																						#~ puts attribute3_name
+																																						#~ puts attribute3_value
+																																						#~ puts attribute4_name
+																																						#~ puts attribute4_value
+																																						#~ puts quantity_update
+																																						TwitireData.create(:inventory_number=>inventory_number, :quantity=>quantity, :dc_quantity=>dc_quantity, :seller_cost => seller_cost, :manufacturer => manufacturer, :mpn => mpn, :attribute1_name=> attribute1_name, :attribute1_value => attribute1_value, :attribute2_name => attribute2_name, :attribute2_value => attribute2_value, :classification => classification, :dc_code => dc_code, :attribute3_name => attribute3_name, :attribute3_value => attribute3_value, :attribute4_name => attribute4_name, :attribute4_value => attribute4_value, :quantity_update => quantity_update)
+																																		   end
 																																		end
 																												end					
 																										
