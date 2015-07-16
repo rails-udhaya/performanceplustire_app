@@ -92,12 +92,13 @@ class TwitireDatatBuilderAgent
 																																				attribute2_name	= "TreadX Description"
 																																				attribute2_value	= ""
 																																				classification	= "Tire"
-																																				dc_code		= "Troy"
+																																				dc_code		= "TWI-MI"
 																																				attribute3_name	= "Group"
 																																				attribute3_value	= "TIRE"
 																																				attribute4_name	= "eBay Store Category"
 																																				attribute4_value	= "Tires"
 																																				quantity_update	= "Unshipped"
+																																				labels_for	= "ebay,tire"
 																																						if (t_1.css("td") && t_1.css("td")[0] && t_1.css("td")[0].css("table"))
 																																								temp_9 = t_1.css("td")[0].css("table td")
 																																								temp_9.each do |t_9|
@@ -109,7 +110,7 @@ class TwitireDatatBuilderAgent
 																																					inventory_number = t_1.css("td")[1].text.gsub("'","''").strip()+":D" if t_1.css("td") && !t_1.css("td")[1].nil?
 																																					if inventory_number != ""
 																																							quantity = t_1.css("td")[5].text.gsub("+","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[5].nil?
-																																							dc_quantity = "Troy="+t_1.css("td")[5].text.gsub("+","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[5].nil?
+																																							dc_quantity = "TWI-MI="+t_1.css("td")[5].text.gsub("+","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[5].nil?
 																																							seller_cost = t_1.css("td")[4].text.gsub("$","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[4].nil?
 																																						manufacturer = p.category
 																																						mpn= t_1.css("td")[1].text.gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[1].nil?
@@ -132,7 +133,7 @@ class TwitireDatatBuilderAgent
 																																						#~ puts attribute4_name
 																																						#~ puts attribute4_value
 																																						#~ puts quantity_update
-																																						TwitireData.create(:inventory_number=>inventory_number, :quantity=>quantity, :dc_quantity=>dc_quantity, :seller_cost => seller_cost, :manufacturer => manufacturer, :mpn => mpn, :attribute1_name=> attribute1_name, :attribute1_value => attribute1_value, :attribute2_name => attribute2_name, :attribute2_value => attribute2_value, :classification => classification, :dc_code => dc_code, :attribute3_name => attribute3_name, :attribute3_value => attribute3_value, :attribute4_name => attribute4_name, :attribute4_value => attribute4_value, :quantity_update => quantity_update)
+																																						TwitireData.create(:inventory_number=>inventory_number, :quantity=>quantity, :dc_quantity=>dc_quantity, :seller_cost => seller_cost, :manufacturer => manufacturer, :mpn => mpn, :attribute1_name=> attribute1_name, :attribute1_value => attribute1_value, :attribute2_name => attribute2_name, :attribute2_value => attribute2_value, :classification => classification, :dc_code => dc_code, :attribute3_name => attribute3_name, :attribute3_value => attribute3_value, :attribute4_name => attribute4_name, :attribute4_value => attribute4_value, :quantity_update => quantity_update, :labels_for=> labels_for)
 																																		   end
 																																		end
 																												end					
@@ -162,10 +163,10 @@ class TwitireDatatBuilderAgent
         Dir.mkdir("#{File.dirname(__FILE__)}/twitire_data") unless File.directory?("#{File.dirname(__FILE__)}/twitire_data")
 								file_name = "twitire_#{Date.today.to_s}.txt"
         File.open("#{File.dirname(__FILE__)}/twitire_data/#{file_name}", 'w'){ |f|
-								f.write "Inventory Number"+"\t"+"Quantity"+"\t"+"DC Quantity"+"\t"+"Seller Cost"+"\t"+"Manufacturer"+"\t"+"MPN"+"\t"+"Attribute1Name"+"\t"+"Attribute1Value"+"\t"+"Attribute2Name"+"\t"+"Attribute2Value"+"\t"+"Classification"+"\t"+"DC Code"+"\t"+"Attribute3Name"+"\t"+"Attribute3Value"+"\t"+"Attribute4Name"+"\t"+"Attribute4Value"+"\t"+"Quantity Update"
+								f.write "Inventory Number"+"\t"+"Quantity"+"\t"+"DC Quantity"+"\t"+"Seller Cost"+"\t"+"Manufacturer"+"\t"+"MPN"+"\t"+"Attribute1Name"+"\t"+"Attribute1Value"+"\t"+"Attribute2Name"+"\t"+"Attribute2Value"+"\t"+"Classification"+"\t"+"DC Code"+"\t"+"Attribute3Name"+"\t"+"Attribute3Value"+"\t"+"Attribute4Name"+"\t"+"Attribute4Value"+"\t"+"Quantity Update"+"\t"+"Labels"
 								f.write "\n"
 								@twitiredata.each do |twitiredata|
-										f.write twitiredata.inventory_number+"\t"+twitiredata.quantity+"\t"+twitiredata.dc_quantity+"\t"+twitiredata.seller_cost+"\t"+twitiredata.manufacturer+"\t"+twitiredata.mpn+"\t"+twitiredata.attribute1_name+"\t"+twitiredata.attribute1_value+"\t"+twitiredata.attribute2_name+"\t"+twitiredata.attribute2_value+"\t"+twitiredata.classification+"\t"+twitiredata.dc_code+"\t"+twitiredata.attribute3_name+"\t"+twitiredata.attribute3_value+"\t"+twitiredata.attribute4_name+"\t"+twitiredata.attribute4_value+"\t"+twitiredata.quantity
+										f.write twitiredata.inventory_number+"\t"+twitiredata.quantity+"\t"+twitiredata.dc_quantity+"\t"+twitiredata.seller_cost+"\t"+twitiredata.manufacturer+"\t"+twitiredata.mpn+"\t"+twitiredata.attribute1_name+"\t"+twitiredata.attribute1_value+"\t"+twitiredata.attribute2_name+"\t"+twitiredata.attribute2_value+"\t"+twitiredata.classification+"\t"+twitiredata.dc_code+"\t"+twitiredata.attribute3_name+"\t"+twitiredata.attribute3_value+"\t"+twitiredata.attribute4_name+"\t"+twitiredata.attribute4_value+"\t"+twitiredata.quantity_update+"\t"+twitiredata.labels_for
 										f.write "\n"
 								end
 								}
