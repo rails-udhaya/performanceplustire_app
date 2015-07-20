@@ -163,7 +163,7 @@ class TwitireDatatBuilderAgent
         Dir.mkdir("#{File.dirname(__FILE__)}/twitire_data") unless File.directory?("#{File.dirname(__FILE__)}/twitire_data")
 								file_name = "twitire_#{Date.today.to_s}.txt"
         File.open("#{File.dirname(__FILE__)}/twitire_data/#{file_name}", 'w'){ |f|
-								f.write "Inventory Number"+"\t"+"Quantity"+"\t"+"DC Quantity"+"\t"+"Seller Cost"+"\t"+"Manufacturer"+"\t"+"MPN"+"\t"+"Attribute1Name"+"\t"+"Attribute1Value"+"\t"+"Attribute2Name"+"\t"+"Attribute2Value"+"\t"+"Classification"+"\t"+"DC Code"+"\t"+"Attribute3Name"+"\t"+"Attribute3Value"+"\t"+"Attribute4Name"+"\t"+"Attribute4Value"+"\t"+"Quantity Update"+"\t"+"Labels"
+								f.write "Inventory Number"+"\t"+"Quantity"+"\t"+"DC Quantity"+"\t"+"Seller Cost"+"\t"+"Manufacturer"+"\t"+"MPN"+"\t"+"Attribute1Name"+"\t"+"Attribute1Value"+"\t"+"Attribute2Name"+"\t"+"Attribute2Value"+"\t"+"Classification"+"\t"+"DC Code"+"\t"+"Attribute3Name"+"\t"+"Attribute3Value"+"\t"+"Attribute4Name"+"\t"+"Attribute4Value"+"\t"+"Quantity Update Type"+"\t"+"Labels"
 								f.write "\n"
 								@twitiredata.each do |twitiredata|
 										f.write twitiredata.inventory_number+"\t"+twitiredata.quantity+"\t"+twitiredata.dc_quantity+"\t"+twitiredata.seller_cost+"\t"+twitiredata.manufacturer+"\t"+twitiredata.mpn+"\t"+twitiredata.attribute1_name+"\t"+twitiredata.attribute1_value+"\t"+twitiredata.attribute2_name+"\t"+twitiredata.attribute2_value+"\t"+twitiredata.classification+"\t"+twitiredata.dc_code+"\t"+twitiredata.attribute3_name+"\t"+twitiredata.attribute3_value+"\t"+twitiredata.attribute4_name+"\t"+twitiredata.attribute4_value+"\t"+twitiredata.quantity_update+"\t"+twitiredata.labels_for
