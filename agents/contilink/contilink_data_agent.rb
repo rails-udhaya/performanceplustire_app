@@ -57,7 +57,7 @@ class ContilinkDatatBuilderAgent
     end
     
 		def start_processing
-										begin
+										#~ begin
 																		if $db_connection_established
 																		Headless.ly do		
 																		ContilinkData.delete_all
@@ -77,16 +77,16 @@ class ContilinkDatatBuilderAgent
 																				write_data_to_file																				
 																		end    
 																end    
-										rescue Exception => e
-														$logger.error "Error Occured - #{e.message}"
-														$logger.error e.backtrace
-														sleep 10
-														system("nohup bundle exec /usr/bin/ruby /var/www/apps/performanceplustire/current/agents/contilink/contilink_data_agent.rb -e production &")
-										ensure
-														$logger.close
-														#~ #Our program will automatically will close the DB connection. But even making sure for the safety purpose.
-														ActiveRecord::Base.clear_active_connections!
-										end
+										#~ rescue Exception => e
+														#~ $logger.error "Error Occured - #{e.message}"
+														#~ $logger.error e.backtrace
+														#~ sleep 10
+														#~ system("nohup bundle exec /usr/bin/ruby /var/www/apps/performanceplustire/current/agents/contilink/contilink_data_agent.rb -e production &")
+										#~ ensure
+														#~ $logger.close
+														#Our program will automatically will close the DB connection. But even making sure for the safety purpose.
+														#~ ActiveRecord::Base.clear_active_connections!
+										#~ end
 				end
 					
 
@@ -119,13 +119,14 @@ class ContilinkDatatBuilderAgent
 				end		
 										
 		def second_set_data_collection
-				  begin
+				  #~ begin
 						if ContilinkData.count > 0
 								puts "uuuuuuuuuuuuuuuuuuuuuuuuuuuuuu #{ContilinkData.count}"
 														ContilinkData.find_in_batches(batch_size: 80) do |group|
-																begin
+																#~ begin
 																reference = group.collect(&:reference_id).join(",")
 															puts url_3="https://www.contilink.com/jsp/ordering/ajax/checkAvailability.do?articleAvail=#{reference}"	
+															$logger.info url_3
 															@browser.goto url_3
 															sleep 10
 												doc_3 = Nokogiri::HTML.parse(@browser.html)
@@ -160,16 +161,16 @@ class ContilinkDatatBuilderAgent
 													#~ sleep 5
 									  end
 								 end	
-											rescue
-													puts  "error in 2 a inside"
-												$logger.info  "error in 2 a insied"
-											end
+											#~ rescue
+													#~ puts  "error in 2 a inside"
+												#~ $logger.info  "error in 2 a insied"
+											#~ end
 										end
 						end
-						rescue
-							   puts  "error in 2 a "
-										$logger.info  "error in 2 a"
-						end
+						#~ rescue
+							   #~ puts  "error in 2 a "
+										#~ $logger.info  "error in 2 a"
+						#~ end
   end				
 							
 		def second_set_data_collection_recheck
