@@ -32,3 +32,60 @@ image_url =l[1]
                 create_twitire_lists = TwitireList.create(:category => "#{category}",:image_url => "#{image_url}", :is_enabled => true)
         end
 end
+
+
+lis_3=[["Continental","10","Passenger","PS","PureContact","CAF"],
+["Continental","10","Passenger","PS","TrueContact","CYJ"],
+["Continental","10","Passenger","PS","ExtremeContact DWS06","CYP"],
+["Continental","10","Passenger","PS","ExtremeContact DW","C0V"],
+["Continental","10","Passenger","PS","ContiSportContact 5P","C44"],
+["Continental","10","Passenger","PS","ContiProContact","CCH"],
+["Continental","10","Passenger","PS","TouringContact CV95","C7J"],
+["Continental","10","Passenger","PS","ContiSportContact 3","CIL"],
+["Continental","10","Passenger","PS","ContiSportContact 2","CAV"],
+["Continental","10","Passenger","PS","ContiSportContact 5","C1F"],
+["Continental","10","Passenger","PS","Conti Sport Contact","C22"],
+["Continental","10","Passenger","PS","ProContactTX","C9V"],
+["Continental","10","Passenger","PS","CrossContact LX Sport","CA0"],
+["Continental","10","Passenger","PS","ProContact GX","C9U"],
+["Continental","10","Passenger","PS","ContiPremiumContact2","CWF"],
+["Continental","10","Passenger","PS","WinterContact TS810S","CWC"],
+["Continental","10","Passenger","PS","WinterContact TS810","CWA"],
+["Continental","10","Passenger","PS","ContiWinterContact TS830 P","CF9"],
+["Continental","10","Passenger","PS","ContiSportContact 5P","C44"],
+["Continental","10","Passenger","PS","Conti 4x4 SportCont ","CC2"],
+["Continental","10","Light Truck ","LT","CrossContact UHP","CB2"],
+["Continental","10","Light Truck ","LT","CrossContact LX","CA4"],
+["Continental","10","Light Truck ","LT","CrossContact LX20","C78"],
+["Continental","10","Light Truck ","LT","Conti 4x4 Contact","CAO"],
+["Continental","10","Light Truck ","LT","VancoFourSeason","CCG"],
+["Continental","10","Light Truck ","LT","CrossContact UHP","CB2"],
+["Continental","10","Light Truck ","LT","CrossContact LX20","C78"],
+["Continental","10","Light Truck ","LT","ContiTrac","CBA"],
+["Continental","10","Light Truck ","LT","ContiCrossContact-Winter","CJI"],
+["Continental","10","Light Truck ","LT","ContiTrac TR","CAT"],
+["Continental","10","Light Truck ","LT","Contitrac SUV","C9P"],
+["Continental","10","Light Truck ","LT","Conti 4x4 Wint Cont","CAD"],
+["Continental","10","Light Truck ","LT","Conti 4X4 Contact","CAO"]]
+
+lis_3.each do |l|
+brand_name=""
+brand_code= ""
+category_name=""
+category_code= ""
+product_line_name = "" 
+product_line_code = ""
+
+brand_name=l[0]
+brand_code= l[1]
+category_name=l[2]
+category_code= l[3]
+product_line_name = l[4]
+product_line_code = l[5]
+
+		     if !ContilinkList.exists?(:product_line_code => product_line_code)
+                create_contilink_lists = ContilinkList.create(:brand_name => "#{brand_name}",:brand_code => "#{brand_code}",:category_name => "#{category_name}",:category_code => "#{category_code}",:product_line_name => "#{product_line_name}",:product_line_code => "#{product_line_code}", :is_enabled => true)
+        end
+end
+
+
