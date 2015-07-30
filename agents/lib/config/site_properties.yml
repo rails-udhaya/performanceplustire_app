@@ -9,6 +9,8 @@ development:
   twitire_password: "11831"  
   kumho_user_name: "1090614"
   kumho_password: "3910pplus"
+  contilink_user_name: "performance"
+  contilink_password: "performance"
 
 production:
   email_to: "udhaya.dhanabalan@gmail.com"
@@ -16,3 +18,5 @@ production:
   twitire_password: "11831"
   kumho_user_name: "1090614"
   kumho_password: "3910pplus"
+  contilink_user_name: "performance"
+  contilink_password: "performance"
