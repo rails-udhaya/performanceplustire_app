@@ -78,7 +78,7 @@ class NexentireonlineDatatBuilderAgent
 														while @i <= @num  do
 																begin
 																		doc = Nokogiri::HTML.parse(@browser.html)
-																		#~ sleep 5
+																		sleep 5
 																		temp_1 = doc.css("table#_ctl0_ContentPlaceHolder1_gridList_WAREHOUSE tbody tr")
 																		temp_1.each_with_index do |t_1,s|
 																				material= "" ,material_desc= "" ,load= "" ,stock_ot= "" ,stock_at= "" ,stock_total= "" ,water_ot= "" ,water_at= "" ,water_total= "" ,arrival_ot= "" ,arrival_at= "" ,arrival_total= "" ,inventory_number= "" ,quantity= "" ,quantity_updated_type= "" ,seller_cost= "" ,dc_quantity = ""
@@ -86,6 +86,7 @@ class NexentireonlineDatatBuilderAgent
 																						if s >= 2
 																								if (t_1.css("td")[0] && t_1.css("td")[0].text != "1" && t_1.css("td")[0].text != "...")
 																										puts			material= t_1.css("td")[0].text.gsub("'","").strip()
+																										$logger.info material
 																										load= t_1.css("td")[2].text.gsub("'","").strip()
 																										stock_ot= t_1.css("td")[3].text.gsub("'","").strip()
 																										inventory_number = "A+1:#{material}:D" if material
