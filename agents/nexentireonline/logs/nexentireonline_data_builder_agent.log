@@ -1,0 +1,99 @@
+# Logfile created on 2015-08-03 11:24:39 -0700 by logger.rb/31641
+I, [2015-08-03T11:24:39.018925 #19428]  INFO -- : Mysql connection established
+E, [2015-08-03T11:26:56.154702 #19428] ERROR -- : Error Occured - unable to locate element, using {:text=>"34", :tag_name=>"a"}
+E, [2015-08-03T11:26:56.154702 #19428] ERROR -- : ["c:/Ruby193/lib/ruby/gems/1.9.1/gems/watir-webdriver-0.6.11/lib/watir-webdriver/elements/element.rb:513:in `assert_exists'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/watir-webdriver-0.6.11/lib/watir-webdriver/elements/element.rb:119:in `click'", "agents/nexentireonline/nexentireonline_data_agent.rb:102:in `start_processing'", "agents/nexentireonline/nexentireonline_data_agent.rb:173:in `<main>'"]
+I, [2015-08-03T11:28:44.665034 #17596]  INFO -- : Mysql connection established
+I, [2015-08-03T11:30:49.965047 #17552]  INFO -- : Mysql connection established
+E, [2015-08-03T11:32:54.104630 #17552] ERROR -- : Error Occured - undefined local variable or method `browser' for #<NexentireonlineDatatBuilderAgent:0x2385648>
+E, [2015-08-03T11:32:54.104630 #17552] ERROR -- : ["agents/nexentireonline/nexentireonline_data_agent.rb:112:in `start_processing'", "agents/nexentireonline/nexentireonline_data_agent.rb:179:in `<main>'"]
+I, [2015-08-03T11:34:37.182878 #17244]  INFO -- : Mysql connection established
+I, [2015-08-03T11:36:07.904116 #2208]  INFO -- : Mysql connection established
+I, [2015-08-03T11:38:18.110253 #2208]  INFO -- : Sending email..
+I, [2015-08-03T11:43:14.679771 #11804]  INFO -- : Mysql connection established
+E, [2015-08-03T11:43:15.289158 #11804] ERROR -- : Error Occured - Permission denied - C:\Users\Udhayakumar\AppData\Roaming\Mozilla\Firefox/Profiles/n1qp6dx9.default/parent.lock
+E, [2015-08-03T11:43:15.289158 #11804] ERROR -- : ["c:/Ruby193/lib/ruby/1.9.1/fileutils.rb:1370:in `initialize'", "c:/Ruby193/lib/ruby/1.9.1/fileutils.rb:1370:in `open'", "c:/Ruby193/lib/ruby/1.9.1/fileutils.rb:1370:in `copy_file'", "c:/Ruby193/lib/ruby/1.9.1/fileutils.rb:1338:in `copy'", "c:/Ruby193/lib/ruby/1.9.1/fileutils.rb:465:in `block in copy_entry'", "c:/Ruby193/lib/ruby/1.9.1/fileutils.rb:1433:in `preorder_traverse'", "c:/Ruby193/lib/ruby/1.9.1/fileutils.rb:462:in `copy_entry'", "c:/Ruby193/lib/ruby/1.9.1/fileutils.rb:437:in `block in cp_r'", "c:/Ruby193/lib/ruby/1.9.1/fileutils.rb:1515:in `block in fu_each_src_dest'", "c:/Ruby193/lib/ruby/1.9.1/fileutils.rb:1531:in `fu_each_src_dest0'", "c:/Ruby193/lib/ruby/1.9.1/fileutils.rb:1513:in `fu_each_src_dest'", "c:/Ruby193/lib/ruby/1.9.1/fileutils.rb:436:in `cp_r'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/common/profile_helper.rb:33:in `create_tmp_copy'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/firefox/profile.rb:73:in `layout_on_disk'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/firefox/launcher.rb:58:in `create_profile'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/firefox/launcher.rb:34:in `block in launch'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/firefox/socket_lock.rb:20:in `locked'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/firefox/launcher.rb:32:in `launch'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/firefox/bridge.rb:24:in `initialize'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/common/driver.rb:31:in `new'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/common/driver.rb:31:in `for'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver.rb:67:in `for'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/watir-webdriver-0.6.11/lib/watir-webdriver/browser.rb:46:in `initialize'", "agents/nexentireonline/nexentireonline_data_agent.rb:65:in `new'", "agents/nexentireonline/nexentireonline_data_agent.rb:65:in `start_processing'", "agents/nexentireonline/nexentireonline_data_agent.rb:182:in `<main>'"]
+I, [2015-08-03T11:44:51.399420 #192]  INFO -- : Mysql connection established
+I, [2015-08-03T11:45:12.933760 #9872]  INFO -- : Mysql connection established
+I, [2015-08-03T11:49:03.702516 #2208]  INFO -- : Mysql connection established
+I, [2015-08-03T11:50:04.562942 #984]  INFO -- : Mysql connection established
+I, [2015-08-03T11:51:12.683767 #4952]  INFO -- : Mysql connection established
+I, [2015-08-03T11:51:34.525451 #17620]  INFO -- : Mysql connection established
+I, [2015-08-03T11:54:05.643052 #2300]  INFO -- : Mysql connection established
+I, [2015-08-03T11:55:58.830897 #11116]  INFO -- : Mysql connection established
+I, [2015-08-03T11:58:38.154646 #10712]  INFO -- : Mysql connection established
+I, [2015-08-03T11:59:10.964987 #10712]  INFO -- : Sending email..
+I, [2015-08-03T11:59:33.526087 #11528]  INFO -- : Mysql connection established
+I, [2015-08-03T12:02:58.764282 #11516]  INFO -- : Mysql connection established
+I, [2015-08-03T12:04:19.998937 #3280]  INFO -- : Mysql connection established
+I, [2015-08-03T12:05:55.985705 #3052]  INFO -- : Mysql connection established
+I, [2015-08-03T12:07:12.547456 #12864]  INFO -- : Mysql connection established
+I, [2015-08-03T12:08:08.278775 #8600]  INFO -- : Mysql connection established
+I, [2015-08-03T12:09:23.588919 #2212]  INFO -- : Mysql connection established
+I, [2015-08-03T12:11:09.478470 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:10.060640 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:10.601412 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:11.117046 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:11.655436 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:12.092947 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:12.561702 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:13.020547 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:13.536180 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:14.007770 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:14.523402 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:15.007787 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:15.460919 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:15.901606 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:16.352225 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:16.789738 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:17.242855 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:17.664752 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:18.103023 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:18.524904 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:18.962411 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:19.408020 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:19.861137 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:20.307550 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:20.760682 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:21.182583 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:21.604448 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:22.058340 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:22.511473 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:22.944689 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:23.401545 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:23.823431 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:24.229460 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:24.682591 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:25.104492 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:25.557625 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:25.981630 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:26.419155 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:26.825391 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:27.262900 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:27.700651 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:28.139044 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:28.576550 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:29.014060 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:29.435943 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:29.842211 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:30.295328 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:30.732855 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:31.170343 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:31.904732 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:32.343289 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:32.749532 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:33.202677 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:33.687046 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:34.222036 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:34.753291 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:35.284549 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:35.815807 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:36.253591 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:36.691115 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:37.128622 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:37.566127 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:38.004543 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:38.426440 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:38.863475 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:39.285353 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:39.736290 #2212]  INFO -- : no more pages available
+I, [2015-08-03T12:11:43.195771 #2212]  INFO -- : Sending email..

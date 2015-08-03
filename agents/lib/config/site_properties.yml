@@ -11,6 +11,8 @@ development:
   kumho_password: "3910pplus"
   contilink_user_name: "performance"
   contilink_password: "performance"
+  nexentireonline_user_name: "hfeldman2015"
+  nexentireonline_password: "hfeldman2015"
 
 production:
   email_to: "udhaya.dhanabalan@gmail.com"
@@ -20,3 +22,5 @@ production:
   kumho_password: "3910pplus"
   contilink_user_name: "performance"
   contilink_password: "performance"
+  nexentireonline_user_name: "hfeldman2015"
+  nexentireonline_password: "hfeldman2015"
