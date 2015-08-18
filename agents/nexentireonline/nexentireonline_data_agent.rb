@@ -9,7 +9,7 @@ ActionMailer::Base.delivery_method = :smtp
   :port                 => 587,
   :domain               => "gmail.com",
   :user_name            => "scrape.coder@gmail.com",
-  :password             => "odesk2015",
+  :password             => "odesk2016",
   :authentication       => "plain",
   :enable_starttls_auto => true
 }
