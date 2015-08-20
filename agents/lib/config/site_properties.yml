@@ -13,6 +13,10 @@ development:
   contilink_password: "performance"
   nexentireonline_user_name: "hfeldman2015"
   nexentireonline_password: "hfeldman2015"
+  content_for_server_domain_name: ""
+  content_for_server_ftp_login: ""
+  content_for_server_ftp_password: ""
+  ftp_path: "Development_Inventory/"
 
 production:
   email_to: "udhaya.dhanabalan@gmail.com"
@@ -24,3 +28,7 @@ production:
   contilink_password: "performance"
   nexentireonline_user_name: "hfeldman2015"
   nexentireonline_password: "hfeldman2015"
+  content_for_server_domain_name: ""
+  content_for_server_ftp_login: ""
+  content_for_server_ftp_password: ""
+  ftp_path: "Inventory/"
