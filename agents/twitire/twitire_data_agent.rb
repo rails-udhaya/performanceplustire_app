@@ -73,6 +73,7 @@ class TwitireDatatBuilderAgent
 																								patt.each do |p|
 																										$logger.info "Processing...... #{p.category}, #{p.image_url}"
 																											image_url = p.image_url
+																											hexa_pattern  = p.hexa_pattern
 																														browser.goto "http://twitire.tireweb.com/Retail/PriceListNew.asp"
 																														browser.font(:text, "All").click
 																														browser.image(:src => image_url).click
@@ -107,13 +108,13 @@ class TwitireDatatBuilderAgent
 																																								t_1.css("td")[0].css("table").remove if t_1.css("td")[0].css("table")
 																																						end
 
-																																					inventory_number = t_1.css("td")[1].text.gsub("'","''").strip()+":D" if t_1.css("td") && !t_1.css("td")[1].nil?
+																																					puts inventory_number = t_1.css("td")[1].text.gsub("'","''").split(/^#{hexa_pattern}/).join.strip()+":D" if t_1.css("td") && !t_1.css("td")[1].nil?
 																																					if inventory_number != ""
 																																							quantity = t_1.css("td")[5].text.gsub("+","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[5].nil?
 																																							dc_quantity = "TWI-MI="+t_1.css("td")[5].text.gsub("+","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[5].nil?
 																																							seller_cost = t_1.css("td")[4].text.gsub("$","").gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[4].nil?
 																																						manufacturer = p.category
-																																						mpn= t_1.css("td")[1].text.gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[1].nil?
+																																						mpn= t_1.css("td")[1].text.gsub("'","''").split(/^#{hexa_pattern}/).join.strip() if t_1.css("td") && !t_1.css("td")[1].nil?
 																																						attribute1_value		= p.category
 																																						attribute2_value		= t_1.css("td")[3].text.gsub("'","''").strip() if t_1.css("td") && !t_1.css("td")[3].nil?
 																																						#~ puts inventory_number	
