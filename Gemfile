@@ -6,6 +6,8 @@ gem 'rails', '3.2.17'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2','~> 0.3.18'
+gem 'ruby-gmail'
+gem 'rubyXL'
 
 
 # Gems used only for assets and not required
