@@ -60,7 +60,7 @@ class TwitireDatatBuilderAgent
 		def start_processing
 										begin
 																		if $db_connection_established
-																								#~ Headless.ly do		
+																								Headless.ly do		
 																								TwitireData.delete_all
 																								patt = TwitireList.where(:is_enabled => true)
 
@@ -143,7 +143,7 @@ class TwitireDatatBuilderAgent
 																										browser.close
 																										write_data_to_file																				
 																						
-																						#~ end    
+																						end    
 																end    
 										rescue Exception => e
 														$logger.error "Error Occured - #{e.message}"
