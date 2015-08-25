@@ -60,7 +60,7 @@ class TwitireDatatBuilderAgent
 		def start_processing
 										begin
 																		if $db_connection_established
-																								Headless.ly do		
+																								#~ Headless.ly do		
 																								TwitireData.delete_all
 																								patt = TwitireList.where(:is_enabled => true)
 
@@ -143,7 +143,7 @@ class TwitireDatatBuilderAgent
 																										browser.close
 																										write_data_to_file																				
 																						
-																						end    
+																						#~ end    
 																end    
 										rescue Exception => e
 														$logger.error "Error Occured - #{e.message}"
@@ -171,8 +171,27 @@ class TwitireDatatBuilderAgent
 										f.write "\n"
 								end
 								}
-								send_email= TwitireMailer.twitire_daily_data_email(file_name,"#{File.dirname(__FILE__)}/twitire_data/#{file_name}")
-								send_email.deliver
+
+										begin
+														Net::FTP.open($site_details["content_for_server_domain_name"], $site_details["content_for_server_ftp_login"], $site_details["content_for_server_ftp_password"]) do |ftp|
+																ftp.passive = true
+																files = ftp.chdir($site_details["ftp_path"])
+																$logger.info "twitire_data Files Started Transfer"
+																		ftp.putbinaryfile("#{File.dirname(__FILE__)}/twitire_data/#{file_name}")
+																$logger.info "twitire_data Files ended Transfer"
+																files = ftp.list
+																		$logger.info files
+																		ftp.close
+														end
+										send_email= TwitireMailer.twitire_daily_data_email(file_name,"#{File.dirname(__FILE__)}/twitire_data/#{file_name}")
+										send_email.deliver
+								rescue Exception => e
+														$logger.error "Error Occured - #{e.message}"
+														$logger.error e.backtrace
+								end
+
+
+								
 				end						
 					
 																										
