@@ -8,6 +8,8 @@ gem 'rails', '3.2.17'
 gem 'mysql2','~> 0.3.18'
 gem 'ruby-gmail'
 gem 'rubyXL'
+gem 'write_xlsx'
+gem 'google-api-client'
 
 
 # Gems used only for assets and not required

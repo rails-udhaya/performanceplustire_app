@@ -152,9 +152,9 @@ class KumhoDatatBuilderAgent
 												Net::FTP.open($site_details["content_for_server_domain_name"], $site_details["content_for_server_ftp_login"], $site_details["content_for_server_ftp_password"]) do |ftp|
 												ftp.passive = true
 												files = ftp.chdir($site_details["ftp_path"])
-												$logger.info "Files Started Transfer"
+												$logger.info "kumho_data Files Started Transfer"
 														ftp.putbinaryfile("#{File.dirname(__FILE__)}/kumho_data/#{file_name}")
-												$logger.info "Files ended Transfer"
+												$logger.info "kumho_data Files ended Transfer"
 												files = ftp.list
 														$logger.info files
 														ftp.close
@@ -162,8 +162,9 @@ class KumhoDatatBuilderAgent
 								
 												send_email= KumhoMailer.kumho_daily_data_email(file_name,"#{File.dirname(__FILE__)}/kumho_data/#{file_name}")
 												send_email.deliver
-								rescue
-								
+								rescue Exception => e
+														$logger.error "Error Occured - #{e.message}"
+														$logger.error e.backtrace
 								end
 
 
