@@ -6,7 +6,7 @@ require 'google/api_client/auth/storages/file_store'
 require 'fileutils'
 
 APPLICATION_NAME = 'Gmail API Quickstart'
-CLIENT_SECRETS_PATH = 'client_secret.json'
+CLIENT_SECRETS_PATH = "#{File.dirname(__FILE__)}/client_secret.json"
 CREDENTIALS_PATH = File.join(Dir.home, '.credentials',
                              "gmail-quickstart.json")
 SCOPE = 'https://www.googleapis.com/auth/gmail.readonly'
