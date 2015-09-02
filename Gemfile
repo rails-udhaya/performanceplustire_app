@@ -10,6 +10,7 @@ gem 'ruby-gmail'
 gem 'rubyXL'
 gem 'write_xlsx'
 gem 'google-api-client'
+gem 'roo'
 
 
 # Gems used only for assets and not required
