@@ -18,7 +18,7 @@ ActionMailer::Base.view_paths= File.dirname(__FILE__)
 class SumitomoMailer < ActionMailer::Base
 		
 def sumitomo_daily_data_email(fi_name,attach)
-		logger.info  "Sending email.."
+		$logger.info  "Sending email.."
 		$logger.info "Sending email.."
 		 attachments[fi_name] = File.read(attach)
     mail(
@@ -84,8 +84,8 @@ class SumitomoDatatBuilderAgent
 																																		quantity_updated_type = "Unshipped"
 																																		seller_cost = ""
 																																		dc_quantity = ""
-																																		logger.info  quantity= t_1.previous_element.css("td")[1].text.strip() if !t_1.previous_element.css("td")[1].nil? && t_1.css("td")[1]
-																																logger.info  inventory_number = "A+1:#{t_1.css("td")[2].text.strip()}:D" if !t_1.css("td")[2].nil? && t_1.css("td")[2] 		
+																																		$logger.info  quantity= t_1.previous_element.css("td")[1].text.strip() if !t_1.previous_element.css("td")[1].nil? && t_1.css("td")[1]
+																																$logger.info  inventory_number = "A+1:#{t_1.css("td")[2].text.strip()}:D" if !t_1.css("td")[2].nil? && t_1.css("td")[2] 		
 																																dc_quantity = "Long Beach=#{quantity}".strip() if quantity
 																																		SumitomoData.create(:inventory_number=>inventory_number, :quantity=>quantity, :quantity_updated_type=>quantity_updated_type, :seller_cost => seller_cost, :dc_quantity => dc_quantity)
 																														end
@@ -97,8 +97,8 @@ class SumitomoDatatBuilderAgent
 																																		quantity_updated_type = "Unshipped"
 																																		seller_cost = ""
 																																		dc_quantity = ""
-																																		logger.info  quantity= t_2.previous_element.css("td")[1].text.strip() if !t_2.previous_element.css("td")[1].nil? && t_2.css("td")[1]
-																																logger.info  inventory_number = "A+1:#{t_2.css("td")[2].text.strip()}:D"		 if !t_2.css("td")[2].nil? && t_2.css("td")[2]
+																																		$logger.info  quantity= t_2.previous_element.css("td")[1].text.strip() if !t_2.previous_element.css("td")[1].nil? && t_2.css("td")[1]
+																																$logger.info  inventory_number = "A+1:#{t_2.css("td")[2].text.strip()}:D"		 if !t_2.css("td")[2].nil? && t_2.css("td")[2]
 																																dc_quantity = "Long Beach=#{quantity}".strip() if quantity
 																																		SumitomoData.create(:inventory_number=>inventory_number, :quantity=>quantity, :quantity_updated_type=>quantity_updated_type, :seller_cost => seller_cost, :dc_quantity => dc_quantity)
 																														end			
@@ -110,14 +110,14 @@ class SumitomoDatatBuilderAgent
 																																		quantity_updated_type = "Unshipped"
 																																		seller_cost = ""
 																																		dc_quantity = ""
-																																		logger.info  quantity= t_3.previous_element.css("td")[1].text.strip() if !t_3.previous_element.css("td")[1].nil? && t_3.css("td")[1]
-																																logger.info  inventory_number = "A+1:#{t_3.css("td")[2].text.strip()}:D"		 if !t_3.css("td")[2].nil? && t_3.css("td")[2]
+																																		$logger.info  quantity= t_3.previous_element.css("td")[1].text.strip() if !t_3.previous_element.css("td")[1].nil? && t_3.css("td")[1]
+																																$logger.info  inventory_number = "A+1:#{t_3.css("td")[2].text.strip()}:D"		 if !t_3.css("td")[2].nil? && t_3.css("td")[2]
 																																dc_quantity = "Long Beach=#{quantity}".strip() if quantity
 																																		SumitomoData.create(:inventory_number=>inventory_number, :quantity=>quantity, :quantity_updated_type=>quantity_updated_type, :seller_cost => seller_cost, :dc_quantity => dc_quantity)
 																														end
 
-																														#~ logger.info  temp_file_path="#{Rails.root}/public/sumitomo_preprocessed_data/"
-																														#~ logger.info  latest_temp_file_path = Dir.glob(File.join(temp_file_path, '*.*')).max { |a,b| File.ctime(a) <=> File.ctime(b) }
+																														#~ $logger.info  temp_file_path="#{Rails.root}/public/sumitomo_preprocessed_data/"
+																														#~ $logger.info  latest_temp_file_path = Dir.glob(File.join(temp_file_path, '*.*')).max { |a,b| File.ctime(a) <=> File.ctime(b) }
 																														#~ xlsx = Roo::Spreadsheet.open(latest_temp_file_path)
 																																#~ xlsx.each_row_streaming do |row|
 																																		#~ inventory_number =""
@@ -126,10 +126,10 @@ class SumitomoDatatBuilderAgent
 																																		#~ seller_cost = ""
 																																		#~ dc_quantity = ""
 																																#~ if(!row[0].value.nil? && row[0].value != "" &&row[0].value.class.to_s != "Date" && row[0].value.strip() != "Site ID and Name")
-																																		#logger.info  row[0].value
-																																		#~ logger.info  inventory_number= row[5].value.gsub(/^SUMI-/,"A+1:")+":D" if !row[5].value.nil?
-																																		#~ logger.info  quantity= row[6].value.to_i.to_s if !row[6].value.nil?
-																																		#~ logger.info  dc_quantity = "Long Beach=" +  row[6].value.to_i.to_s if  row[6].value.to_i
+																																		#$logger.info  row[0].value
+																																		#~ $logger.info  inventory_number= row[5].value.gsub(/^SUMI-/,"A+1:")+":D" if !row[5].value.nil?
+																																		#~ $logger.info  quantity= row[6].value.to_i.to_s if !row[6].value.nil?
+																																		#~ $logger.info  dc_quantity = "Long Beach=" +  row[6].value.to_i.to_s if  row[6].value.to_i
 																																		#~ SumitomoData.create(:inventory_number=>inventory_number, :quantity=>quantity, :quantity_updated_type=>quantity_updated_type, :seller_cost => seller_cost, :dc_quantity => dc_quantity)
 																																#~ end
 																														#~ end
