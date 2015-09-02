@@ -1,0 +1,31 @@
+# Logfile created on 2015-08-26 14:52:02 -0700 by logger.rb/31641
+I, [2015-08-26T14:52:04.152665 #66072]  INFO -- : Mysql connection established
+E, [2015-08-26T14:52:04.152665 #66072] ERROR -- : Error Occured - uninitialized constant SumitomoDatatBuilderAgent::SumitomoData
+E, [2015-08-26T14:52:04.152665 #66072] ERROR -- : ["agents/sumitomo/sumitomo_data_agent.rb:63:in `start_processing'", "agents/sumitomo/sumitomo_data_agent.rb:158:in `<main>'"]
+I, [2015-08-26T14:52:52.113999 #65252]  INFO -- : Mysql connection established
+I, [2015-08-26T14:54:29.156713 #67580]  INFO -- : Mysql connection established
+I, [2015-08-26T14:54:45.750666 #65668]  INFO -- : Mysql connection established
+I, [2015-08-26T14:54:45.867241 #65668]  INFO -- : Sending email..
+I, [2015-08-26T15:01:47.565823 #62596]  INFO -- : Mysql connection established
+I, [2015-08-26T15:03:55.511859 #63552]  INFO -- : Mysql connection established
+I, [2015-08-26T15:34:13.840325 #67284]  INFO -- : Mysql connection established
+I, [2015-08-26T15:34:55.957748 #66220]  INFO -- : Mysql connection established
+I, [2015-08-26T15:36:13.606893 #66392]  INFO -- : Mysql connection established
+I, [2015-08-26T15:36:34.964337 #44460]  INFO -- : Mysql connection established
+I, [2015-08-26T15:37:13.831033 #29688]  INFO -- : Mysql connection established
+I, [2015-08-26T15:37:25.861391 #29244]  INFO -- : Mysql connection established
+I, [2015-08-26T15:38:01.525979 #61792]  INFO -- : Mysql connection established
+I, [2015-08-26T15:41:10.464965 #55280]  INFO -- : Mysql connection established
+I, [2015-08-26T15:41:51.510095 #67048]  INFO -- : Mysql connection established
+I, [2015-08-26T15:42:23.927921 #66904]  INFO -- : Mysql connection established
+I, [2015-08-26T15:43:36.459414 #66484]  INFO -- : Mysql connection established
+I, [2015-08-26T15:44:23.526285 #67288]  INFO -- : Mysql connection established
+I, [2015-08-26T15:49:34.826166 #65432]  INFO -- : Mysql connection established
+I, [2015-08-26T15:50:05.929003 #66352]  INFO -- : Mysql connection established
+I, [2015-08-26T15:50:42.756561 #66948]  INFO -- : Mysql connection established
+I, [2015-08-26T15:51:12.082617 #66868]  INFO -- : Mysql connection established
+I, [2015-08-26T15:51:37.830031 #66000]  INFO -- : Mysql connection established
+I, [2015-08-26T15:52:34.732402 #65748]  INFO -- : Mysql connection established
+I, [2015-08-26T15:52:58.958125 #57696]  INFO -- : Mysql connection established
+I, [2015-08-26T15:54:54.234733 #65576]  INFO -- : Mysql connection established
+I, [2015-08-26T15:55:11.296741 #65576]  INFO -- : Sending email..

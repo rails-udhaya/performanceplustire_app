@@ -12,10 +12,12 @@ development:
   contilink_user_name: "performance"
   contilink_password: "performance"
   nexentireonline_user_name: "hfeldman2015"
-  nexentireonline_password: "hfeldman2015"
-  content_for_server_domain_name: ""
-  content_for_server_ftp_login: ""
-  content_for_server_ftp_password: ""
+  nexentireonline_password: "hfeldman2015" 
+  sumitomo_user_name: "sales@performanceplus"
+  sumitomo_password: "3910cherry"
+  content_for_server_domain_name: "ftp.channeladvisor.com"
+  content_for_server_ftp_login: "90807:ebayppt@performanceplustire.com"
+  content_for_server_ftp_password: "90807cherry"
   ftp_path: "Development_Inventory/"
 
 production:
@@ -28,7 +30,12 @@ production:
   contilink_password: "performance"
   nexentireonline_user_name: "hfeldman2015"
   nexentireonline_password: "hfeldman2015"
+  sumitomo_user_name: "sales@performanceplus"
+  sumitomo_password: "3910cherry"
   content_for_server_domain_name: ""
   content_for_server_ftp_login: ""
   content_for_server_ftp_password: ""
   ftp_path: "Inventory/"
+  
+  
+  

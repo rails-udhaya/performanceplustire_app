@@ -1,0 +1,16 @@
+# Logfile created on 2015-09-02 08:49:57 -0700 by logger.rb/31641
+I, [2015-09-02T08:49:57.966814 #72288]  INFO -- : Mysql connection established
+I, [2015-09-02T08:50:33.359007 #69968]  INFO -- : Mysql connection established
+E, [2015-09-02T08:50:45.783309 #69968] ERROR -- : Error Occured - unable to locate element, using {:id=>"ctl00_Login_UserName", :tag_name=>"input or textarea", :type=>"(any text type)"}
+E, [2015-09-02T08:50:45.783309 #69968] ERROR -- : ["c:/Ruby193/lib/ruby/gems/1.9.1/gems/watir-webdriver-0.6.11/lib/watir-webdriver/elements/element.rb:513:in `assert_exists'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/watir-webdriver-0.6.11/lib/watir-webdriver/user_editable.rb:11:in `set'", "agents/sumitomo/sumitomo_data_agent.rb:68:in `start_processing'", "agents/sumitomo/sumitomo_data_agent.rb:178:in `<main>'"]
+I, [2015-09-02T08:52:48.445733 #65960]  INFO -- : Mysql connection established
+E, [2015-09-02T08:53:02.320653 #65960] ERROR -- : Error Occured - unable to locate element, using {:id=>"ctl00_Login_ddlShipTos", :tag_name=>"select"}
+E, [2015-09-02T08:53:02.320653 #65960] ERROR -- : ["c:/Ruby193/lib/ruby/gems/1.9.1/gems/watir-webdriver-0.6.11/lib/watir-webdriver/elements/element.rb:513:in `assert_exists'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/watir-webdriver-0.6.11/lib/watir-webdriver/elements/element.rb:532:in `locate'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/watir-webdriver-0.6.11/lib/watir-webdriver/elements/element.rb:510:in `assert_exists'", "c:/Ruby193/lib/ruby/gems/1.9.1/gems/watir-webdriver-0.6.11/lib/watir-webdriver/elements/option.rb:18:in `select'", "agents/sumitomo/sumitomo_data_agent.rb:71:in `start_processing'", "agents/sumitomo/sumitomo_data_agent.rb:178:in `<main>'"]
+I, [2015-09-02T08:55:52.435602 #66340]  INFO -- : Mysql connection established
+I, [2015-09-02T08:56:47.840558 #68616]  INFO -- : Mysql connection established
+I, [2015-09-02T09:08:52.960984 #69356]  INFO -- : Mysql connection established
+I, [2015-09-02T09:22:32.883404 #4464]  INFO -- : Mysql connection established
+I, [2015-09-02T09:31:29.680602 #67608]  INFO -- : Mysql connection established
+I, [2015-09-02T09:32:19.541913 #67608]  INFO -- : Sending email..
+I, [2015-09-02T09:34:01.668109 #64516]  INFO -- : Mysql connection established
+I, [2015-09-02T09:34:47.531701 #64516]  INFO -- : Sending email..
