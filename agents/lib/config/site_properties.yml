@@ -21,7 +21,7 @@ development:
   ftp_path: "Development_Inventory/"
 
 production:
-  email_to: "udhaya.dhanabalan@gmail.com"
+  email_to: "udhayakumar.dhanabalan@gmail.com"
   twitire_user_name: "TWE"
   twitire_password: "11831"
   kumho_user_name: "1090614"
@@ -32,9 +32,9 @@ production:
   nexentireonline_password: "hfeldman2015"
   sumitomo_user_name: "sales@performanceplus"
   sumitomo_password: "3910cherry"
-  content_for_server_domain_name: ""
-  content_for_server_ftp_login: ""
-  content_for_server_ftp_password: ""
+  content_for_server_domain_name: "ftp.channeladvisor.com"
+  content_for_server_ftp_login: "90807:ebayppt@performanceplustire.com"
+  content_for_server_ftp_password: "90807cherry"
   ftp_path: "Inventory/"
   
   
